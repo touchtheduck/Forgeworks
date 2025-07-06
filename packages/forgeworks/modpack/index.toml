@@ -889,6 +889,11 @@ hash = "9b96d72a1c137e4474f6a7ce08bda3f887c3090f98a89fe494e72ef674069083"
 metafile = true
 
 [[files]]
+file = "mods/bluemap.pw.toml"
+hash = "434a7b340624e0e0cd3229d24c4816ca1acfbd4980136a0096197bced54cf884"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "770e14b5dd31c24ee58d9d876902c909fd7fe0ce3fe933220cf961f45f004052"
 metafile = true
