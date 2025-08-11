@@ -1,0 +1,13 @@
+name = "Aether Addon: Enhanced Extinguishing"
+filename = "aether_enhanced_extinguishing-1.21.1-1.0.0-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7f54bfae608a514c2b94f694f23f607b1462e32e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6040713
+project-id = 884860
