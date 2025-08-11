@@ -1,13 +1,13 @@
 name = "Create Stock Bridge"
-filename = "createstockbridge-1.21.1-0.1.3.jar"
+filename = "createstockbridge-1.21.1-0.1.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "909667c9e539829d6cb3d8ddacf8c7ca8acc9696"
+hash = "3ba1d0ca05211bfd28a03ce6492f9e66d08e430a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6539448
+file-id = 6784443
 project-id = 1256341

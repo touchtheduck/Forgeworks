@@ -1,13 +1,13 @@
 name = "Mekanism: Weapons"
-filename = "MekaWeapons-1.21.1-2.6.jar"
+filename = "MekaWeapons-1.21.1-2.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4ed89333ffb6a682fdc4850a8f80acc62f8d9487"
+hash = "8c942b081a1e502816c837309515a5facf3eba04"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6337392
+file-id = 6867347
 project-id = 929829

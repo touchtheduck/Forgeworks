@@ -1,18 +1,18 @@
 name = "Crash Assistant"
-filename = "CrashAssistant-neoforge-1.21.1-1.8.0.jar"
+filename = "CrashAssistant-neoforge-1.20.6-1.21.4-1.9.15.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "df8c3f150b6d06115de844d86681db2fc1067558"
+hash = "5029cdae7e8287483b1083c53a1433109910bbeb"
 mode = "metadata:curseforge"
-
-[option]
-optional = true
-default = true
-description = "Shows a GUI after Minecraft crashes, immediately showing all affected logs."
 
 [update]
 [update.curseforge]
-file-id = 6548454
+file-id = 6801258
 project-id = 1154099
+
+[option]
+optional = true
+description = "Shows a GUI after Minecraft crashes, immediately showing all affected logs."
+default = true

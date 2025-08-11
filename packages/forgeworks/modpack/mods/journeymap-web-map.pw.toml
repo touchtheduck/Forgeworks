@@ -1,18 +1,18 @@
 name = "JourneyMap Web Map"
-filename = "journeymap-webmap-neoforge-1.21.4-1.0.8.jar"
+filename = "journeymap-webmap-neoforge-1.21.4-1.0.9.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "93db135c365bb8d48cd8416e10bc567813eff1da"
+hash = "63c69b51713d5c6ccb8f26bea194774cd3e04a28"
 mode = "metadata:curseforge"
-
-[option]
-optional = true
-default = true
-description = "Web Map for JourneyMap."
 
 [update]
 [update.curseforge]
-file-id = 6495544
+file-id = 6799651
 project-id = 793035
+
+[option]
+optional = true
+description = "Web Map for JourneyMap."
+default = true

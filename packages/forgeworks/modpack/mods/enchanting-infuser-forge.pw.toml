@@ -1,13 +1,13 @@
-name = "Enchanting Infuser [Forge & Fabric]"
-filename = "EnchantingInfuser-v21.1.0-1.21.1-NeoForge.jar"
+name = "Enchanting Infuser"
+filename = "EnchantingInfuser-v21.1.1-1.21.1-NeoForge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "fea95b86caffeba614a849d91c4f5cd608c32d71"
+hash = "081d7f138a486d496c3d2bd4b37c0e1709483986"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6095938
+file-id = 6834179
 project-id = 551151

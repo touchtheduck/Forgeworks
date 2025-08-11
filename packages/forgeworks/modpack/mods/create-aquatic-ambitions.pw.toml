@@ -1,13 +1,13 @@
 name = "Create: Aquatic Ambitions"
-filename = "create_aquatic_ambitions_neoforge-1.21.1-1.1.4.jar"
+filename = "create_aquatic_ambitions-1.21.1-2.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f8480fbf16f2ac5fd55f3cf9df6f34fc1741bfe9"
+hash = "153924d8d16b0fa1d64670de6ad3cd5312b6b3f1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6393758
+file-id = 6829058
 project-id = 1005676
