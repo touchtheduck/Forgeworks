@@ -2009,6 +2009,11 @@ hash = "308e0d918ea91f029cf72db5a13b415e1bcdca462c1a021a5f27d77c4fee253c"
 metafile = true
 
 [[files]]
+file = "mods/small-ships.pw.toml"
+hash = "dc7140923a01338926a9bea3708b12ddc2599c1bb6c52b5dc624dbdcdde9385e"
+metafile = true
+
+[[files]]
 file = "mods/smithing-template-viewer.pw.toml"
 hash = "d3c1786417ee8ab1caef58c87665b39c1870765fbd6be7376b4e77db47faf694"
 metafile = true
