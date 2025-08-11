@@ -849,6 +849,11 @@ hash = "2e63dff826207577035b9a905c9c1f32d646e9d17ffe646ac1c861433b383179"
 metafile = true
 
 [[files]]
+file = "mods/bad-wither-no-cookie-reloaded.pw.toml"
+hash = "c3233ab72a796b7a0fcea7fa22b88ef5ee0512daf3c767be4f88e6e4f30881b0"
+metafile = true
+
+[[files]]
 file = "mods/baguettelib.pw.toml"
 hash = "65eb3254419ce3c5ef9e51950833c9431a23fc96216b09081187e695326d522e"
 metafile = true
