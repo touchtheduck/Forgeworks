@@ -30,14 +30,10 @@ jobs:
         with:
           fetch-depth: 0
           ref: main
-      - name: Use Node.js v22
-        uses: actions/setup-node@v4
+      - name: Install Dependencies
+        uses: ./.github/actions/install-yarn-dependencies
         with:
           node-version: 22
-      - name: Enable Yarn
-        run: corepack enable yarn
-      - name: Install Dependencies
-        run: yarn install --immutable
       - name: Configure Git
         run: |
           git remote set-url origin "https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${GITHUB_REPOSITORY}.git"
