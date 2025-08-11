@@ -30,7 +30,7 @@ if ! has_param "--dry-run" "$@"; then
     version=$(grep -oE '"version": *"[^"]*"' "$PACKAGE_JSON" | head -n 1 | cut -d '"' -f 4)
     sed -i "s/version = \"[^\"]*\"/version = \"$version\"/" "$PACK_FILE"
     sed -i "s/modpackVersion = \"[^\"]*\"/modpackVersion = \"$version\"/" "$COMPAT_CHECK_CONFIG_FILE"
-    git add "$PACK_FILE"
+    git add "$PACK_FILE" "$COMPAT_CHECK_CONFIG_FILE"
     git commit --amend --no-edit
     git push --force-with-lease
 fi
