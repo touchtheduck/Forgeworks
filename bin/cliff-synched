@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 PACK_FILE="$PWD/modpack/pack.toml"
 PACKAGE_JSON="$PWD/package.json"
+COMPAT_CHECK_CONFIG_FILE="$PWD/modpack/config/bcc-common.toml"
 
 if [ ! -f "$PACK_FILE" ]; then
     echo "Pack file not found at $PACK_FILE"
@@ -28,6 +29,7 @@ cliff-jumper "$@"
 if ! has_param "--dry-run" "$@"; then
     version=$(grep -oE '"version": *"[^"]*"' "$PACKAGE_JSON" | head -n 1 | cut -d '"' -f 4)
     sed -i "s/version = \"[^\"]*\"/version = \"$version\"/" "$PACK_FILE"
+    sed -i "s/modpackVersion = \"[^\"]*\"/modpackVersion = \"$version\"/" "$COMPAT_CHECK_CONFIG_FILE"
     git add "$PACK_FILE"
     git commit --amend --no-edit
     git push --force-with-lease

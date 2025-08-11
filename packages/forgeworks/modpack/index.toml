@@ -894,6 +894,11 @@ hash = "1a69dc193b78a56d431b46de0e0eaa928ef2586702128e5a26b15d8eaeab8f0f"
 metafile = true
 
 [[files]]
+file = "mods/better-compatibility-checker.pw.toml"
+hash = "1d435f1668611f353a386b365cb814fec042758045bf4118320586ebbd881570"
+metafile = true
+
+[[files]]
 file = "mods/better-copper-armor-and-tools.pw.toml"
 hash = "5823b051c289147096ff1912989f2d7253095eb67f644cd871a528f45f9e757a"
 metafile = true
