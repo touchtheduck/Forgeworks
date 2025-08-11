@@ -1,18 +1,18 @@
 name = "Dynamic Crosshair"
-filename = "dynamiccrosshair-9.3+1.21.1-neoforge.jar"
+filename = "dynamiccrosshair-9.8+1.21.1-neoforge.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "1489f48e4206822876a88bc65ea1583ec95a9c32"
+hash = "8627000ce3e88ab6f263e017690dc1fcb6f49d36"
 mode = "metadata:curseforge"
-
-[option]
-optional = true
-default = true
-description = "Hides or changes the crosshair dependent on context."
 
 [update]
 [update.curseforge]
-file-id = 5957359
+file-id = 6779752
 project-id = 623800
+
+[option]
+optional = true
+description = "Hides or changes the crosshair dependent on context."
+default = true
