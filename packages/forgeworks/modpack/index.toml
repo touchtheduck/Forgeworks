@@ -2164,6 +2164,11 @@ hash = "729114b00a1e99f2903ddc56a1ccc889b77b3854b0efc0caa3aa8e31032550b1"
 metafile = true
 
 [[files]]
+file = "mods/villager-names.pw.toml"
+hash = "eb6493a160f157ae4d0f57edccf82036c8a3b514c56dacfe41f9c3fe72583396"
+metafile = true
+
+[[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "f28ceb27bc3ed0a9825de1f853d177b69495deab9128aa05694616e4504ddb52"
 metafile = true
