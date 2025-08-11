@@ -694,6 +694,36 @@ hash = "dea700f49d6cc370ce3dc745bddd8a49c3acf3f8490b1a6422974500f36a06b0"
 metafile = true
 
 [[files]]
+file = "mods/aether-emissivity.pw.toml"
+hash = "027e74806f0a3ac663d77948003b24ea6b3cd960e7dc5e2eb904614c642a3c1f"
+metafile = true
+
+[[files]]
+file = "mods/aether-enhanced-extinguishing.pw.toml"
+hash = "2b58f81d2852779e5f21389c99c0bb6e8e633bf19cc907e6ae5d67dc28af9d56"
+metafile = true
+
+[[files]]
+file = "mods/aether-overworld-ores.pw.toml"
+hash = "42fccab2108580c4cc46e53be952ba9570efcf84c5f11eb860e145c92255fd37"
+metafile = true
+
+[[files]]
+file = "mods/aether-protect-your-moa.pw.toml"
+hash = "97514a520bb2da549db2778ec5391fc82944a01333c1168433df4b46ae4e3c83"
+metafile = true
+
+[[files]]
+file = "mods/aether-treasure-reforging.pw.toml"
+hash = "7ca929b272bf0b2fc422aaa6c8222f1f8fa54d8bcbf39e84a7984e2c12cf5480"
+metafile = true
+
+[[files]]
+file = "mods/aether.pw.toml"
+hash = "e6448befb831607b6f7522250c5f6f2bfd57c80b614467286465b248258c3939"
+metafile = true
+
+[[files]]
 file = "mods/all-the-compatibility.pw.toml"
 hash = "f9e844af47a38ebb9624242d73e7b54ebcfd695aa6e3c9184bd58e53b41f7b5d"
 metafile = true
@@ -1269,6 +1299,11 @@ hash = "6fc1a7cc83770a95f325579fb9c9e8962b2c7253369274ef3d64f5a130e9c035"
 metafile = true
 
 [[files]]
+file = "mods/deep-aether.pw.toml"
+hash = "7aa415b7ead3466d0845d147b52a58df023c5c9753be197408dcaacfb525d079"
+metafile = true
+
+[[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "4c49bcbf4236ebf3eff68e66671c7129193df464cbdae9cdcac2346e848b8c4d"
 metafile = true
@@ -1406,6 +1441,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-cutting-oh-the-biomes-weve-gone.pw.toml"
 hash = "44030876800c6a4cb0be4f78a906db0c230dea8f60007afbbd67262f194e0751"
+metafile = true
+
+[[files]]
+file = "mods/farmers-cutting-the-aether.pw.toml"
+hash = "2ebcb9f608126f5516f2bc67ab3623859819b25ec34beabfc844f11efe11a421"
 metafile = true
 
 [[files]]
