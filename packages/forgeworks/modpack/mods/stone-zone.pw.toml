@@ -1,13 +1,13 @@
 name = "Every Compat (Stone Zone)"
-filename = "stonezone-1.21-2.10.4-neoforge.jar"
+filename = "stonezone-1.21-2.10.8-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2bada2347ddade1f38bc3528f7784385c8e09751"
+hash = "9d1108111e70048ca8e5b45b27a63693b37f1ac3"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6548893
+file-id = 6858115
 project-id = 1154622

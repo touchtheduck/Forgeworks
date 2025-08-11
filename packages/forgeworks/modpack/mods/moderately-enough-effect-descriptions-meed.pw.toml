@@ -1,18 +1,18 @@
 name = "Moderately Enough Effect Descriptions (MEED)"
-filename = "MEED-1.21.1-6.8.jar"
+filename = "meed-1.21.1-7.2.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "21eee3092ded5d25b065c3ecde5dc340835747b2"
+hash = "93b6f4a4a40dcaf3c0f2ba4c4387db45eebcf434"
 mode = "metadata:curseforge"
-
-[option]
-optional = true
-default = true
-description = "A JEED addon that has information on over 400 modded status effects!"
 
 [update]
 [update.curseforge]
-file-id = 6545423
+file-id = 6819406
 project-id = 918638
+
+[option]
+optional = true
+description = "A JEED addon that has information on over 400 modded status effects!"
+default = true
