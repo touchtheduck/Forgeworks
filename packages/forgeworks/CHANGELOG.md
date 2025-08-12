@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [forgeworks@1.4.1](https://github.com/jaronz/forgeworks/compare/forgeworks@1.4.0...forgeworks@1.4.1) - (2025-08-12)
+
+## 🐛 Bug Fixes
+
+- Croptopia salt ore drops ATO salt ([8a62026](https://github.com/jaronz/forgeworks/commit/8a62026987dae9ce84a8a4cc2c891cfcf578f8ff)) ([#55](https://github.com/jaronz/forgeworks/pull/55) by @JaronZ)
+- Milk tag containing nothing ([2d86804](https://github.com/jaronz/forgeworks/commit/2d868042150576749663ce8dcdd1c4fa74e694cc)) ([#54](https://github.com/jaronz/forgeworks/pull/54) by @JaronZ)
+
 # [forgeworks@1.4.0](https://github.com/jaronz/forgeworks/compare/forgeworks@1.3.0...forgeworks@1.4.0) - (2025-08-11)
 
 ## 🚀 Features
