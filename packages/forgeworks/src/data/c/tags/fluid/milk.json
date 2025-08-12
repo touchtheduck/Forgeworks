@@ -1,0 +1,73 @@
+{
+	"values": [
+		{
+			"id": "minecraft:milk",
+			"required": false
+		},
+		{
+			"id": "minecraft:flowing_milk",
+			"required": false
+		},
+		{
+			"id": "#forge:milk",
+			"required": false
+		},
+		{
+			"id": "create_chocolate:almond_milk_fluid",
+			"required": false
+		},
+		{
+			"id": "create_bic_bit:curdled_milk",
+			"required": false
+		},
+		{
+			"id": "createfood:apple_milkshake",
+			"required": false
+		},
+		{
+			"id": "createfood:berry_milkshake",
+			"required": false
+		},
+		{
+			"id": "createfood:chocolate_milk",
+			"required": false
+		},
+		{
+			"id": "createfood:chocolate_millkshake",
+			"required": false
+		},
+		{
+			"id": "createfood:chorus_fruit_milkshake",
+			"required": false
+		},
+		{
+			"id": "createfood:condensed_milk",
+			"required": false
+		},
+		{
+			"id": "createfood:glow_berry_milkshake",
+			"required": false
+		},
+		{
+			"id": "createfood:melon_milkshake",
+			"required": false
+		},
+		{
+			"id": "createfood:milkshake",
+			"required": false
+		},
+		{
+			"id": "extradelight:milkshake_fluid",
+			"required": false
+		},
+		{
+			"id": "extradelight:milk_chocolate_syrup_fluid",
+			"required": false
+		},
+		{
+			"id": "vegandelight:soymilk",
+			"required": false
+		}
+	],
+	"replace": true
+}
