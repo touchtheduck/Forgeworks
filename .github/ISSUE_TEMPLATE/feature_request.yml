@@ -5,6 +5,16 @@ labels: ["type: feature"]
 title: "[FEAT] "
 
 body:
+  - type: dropdown
+    id: package
+    attributes:
+      label: Which package is this feature request for?
+      options:
+        - forgeworks
+        - minigames
+    validations:
+      required: true
+
   - type: textarea
     attributes:
       label: Feature

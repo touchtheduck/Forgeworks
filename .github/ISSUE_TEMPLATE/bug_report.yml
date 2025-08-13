@@ -5,6 +5,16 @@ labels: ["type: bug"]
 title: "[FIX] "
 
 body:
+  - type: dropdown
+    id: package
+    attributes:
+      label: Which package is this bug report for?
+      options:
+        - forgeworks
+        - minigames
+    validations:
+      required: true
+
   - type: textarea
     attributes:
       label: Bug
