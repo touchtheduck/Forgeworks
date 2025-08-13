@@ -1,0 +1,10 @@
+pack:forgeworks:
+  - changed-files:
+      - any-glob-to-any-file:
+          - packages/forgeworks/*
+          - packages/forgeworks/**/*
+pack:minigames:
+  - changed-files:
+      - any-glob-to-any-file:
+          - packages/minigames/*
+          - packages/minigames/**/*
