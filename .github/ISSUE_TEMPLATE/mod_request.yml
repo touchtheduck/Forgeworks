@@ -6,6 +6,15 @@ title: "[MOD] "
 
 body:
   - type: dropdown
+    id: modpack
+    attributes:
+      label: Which modpack is this mod request for?
+      options:
+        - forgeworks
+    validations:
+      required: true
+
+  - type: dropdown
     id: users
     attributes:
       label: Mod Users
