@@ -21,6 +21,14 @@ file = "config/almostunified/unification/materials.json"
 hash = "c48a76ddfea326733cedb83af15f4e54c3eebf83f5fa05475ee9b064672cc1e9"
 
 [[files]]
+file = "config/bcc-common.toml"
+hash = "4e364df076ef0ecbaae9262155ac1291eb83d7b5b8e02dbf21f175a471dcf665"
+
+[[files]]
+file = "config/create-server.toml"
+hash = "38ae7d3750421108b2f7dfc68121aad9b70ee8a88519eb3ad223a10286b39e69"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "465218409556f5c38fa1b0c103d1d87919b6d38878626165db3ae02c1371e78f"
 
@@ -109,8 +117,20 @@ file = "kubejs/data/apothic_enchanting/advancement/bookshelf.json"
 hash = "f906f9e00259f6cc2c4dde5fa9765598cc062d08b78d56396a6c965336144903"
 
 [[files]]
+file = "kubejs/data/c/tags/fluid/milk.json"
+hash = "888ab1b21d0381510eda93ae422d89c03982ac79dac30980c0ca4e4e27eb652d"
+
+[[files]]
 file = "kubejs/data/createfood/recipe/farmersdelight/cutting/bread_slice_from_cutting.json"
 hash = "8a7cad8e704ef9f9784c13ebf22132b1596b137331dd639c7fd81777ce76d220"
+
+[[files]]
+file = "kubejs/data/croptopia/loot_table/blocks/salt_ore.json"
+hash = "7590280f6dd13cebd167088bf39d924ab8b19992a85f0e02509e49c9282c9a44"
+
+[[files]]
+file = "kubejs/data/croptopia/loot_tables/blocks/salt_ore.json"
+hash = "7590280f6dd13cebd167088bf39d924ab8b19992a85f0e02509e49c9282c9a44"
 
 [[files]]
 file = "kubejs/data/expandeddelight/worldgen/configured_feature/sait_ore.json"
