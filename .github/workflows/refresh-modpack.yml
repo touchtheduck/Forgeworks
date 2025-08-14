@@ -52,6 +52,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git add .
             git commit -m "chore(${{ matrix.modpack }}): refresh index"
+            git pull --rebase origin ${{ github.head_ref || 'main' }}
             git push origin HEAD:${{ github.head_ref || 'main' }}
           else
             echo "No changes to commit."
