@@ -23,6 +23,10 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           fetch-depth: 0
+      - name: Install Dependencies
+        uses: ./.github/actions/install-yarn-dependencies
+        with:
+          node-version: 22
       - name: Install nix
         uses: cachix/install-nix-action@526118121621777ccd86f79b04685a9319637641 # v31
       - name: Configure Git
@@ -34,6 +38,8 @@ jobs:
           GITHUB_USER: github-actions[bot]
           GITHUB_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build
+        run: yarn build
       - name: Refresh Modpack
         working-directory: packages/${{ matrix.modpack }}/modpack
         run: nix develop --command packwiz refresh
