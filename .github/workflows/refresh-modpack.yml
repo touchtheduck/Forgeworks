@@ -35,8 +35,12 @@ jobs:
         run: nix develop --command packwiz refresh
       - name: Commit Changes and Push
         run: |
-          git add .
-          git commit -m "chore(${{ matrix.modpack }}): refresh index" || echo "No changes to commit"
-          git push origin HEAD:${{ github.ref }}
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "chore(${{ matrix.modpack }}): refresh index"
+            git push origin HEAD:${{ github.ref }}
+          else
+            echo "No changes to commit."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
