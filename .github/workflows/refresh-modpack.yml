@@ -1,7 +1,11 @@
 name: Refresh Modpack File Index
 on:
   push:
+    branches:
+      - main
   pull_request:
+    branches:
+      - main
 
 jobs:
   refresh-modpack:
