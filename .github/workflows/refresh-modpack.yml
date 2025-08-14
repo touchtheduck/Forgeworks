@@ -1,0 +1,42 @@
+name: Refresh Modpack File Index
+on:
+  push:
+  pull_request:
+
+jobs:
+  refresh-modpack:
+    name: Refresh Modpack ${{ matrix.modpack }}
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
+    strategy:
+      matrix:
+        modpack:
+          - forgeworks
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+        with:
+          fetch-depth: 0
+      - name: Install nix
+        uses: cachix/install-nix-action@526118121621777ccd86f79b04685a9319637641 # v31
+      - name: Configure Git
+        run: |
+          git remote set-url origin "https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${GITHUB_REPOSITORY}.git"
+          git config --local user.email "${GITHUB_EMAIL}"
+          git config --local user.name "${GITHUB_USER}"
+        env:
+          GITHUB_USER: github-actions[bot]
+          GITHUB_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Refresh Modpack
+        working-directory: packages/${{ matrix.modpack }}/modpack
+        run: nix develop --command packwiz refresh
+      - name: Commit Changes and Push
+        run: |
+          git add .
+          git commit -m "chore(${{ matrix.modpack }}): refresh index" || echo "No changes to commit"
+          git push origin HEAD:${{ github.ref }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
