@@ -43,8 +43,8 @@ jobs:
           GITHUB_USER: github-actions[bot]
           GITHUB_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #      - name: Build
-      #        run: yarn build
+      - name: Build
+        run: yarn build
       - name: Refresh Modpack
         working-directory: packages/${{ matrix.modpack }}/modpack
         run: nix develop --command packwiz refresh
