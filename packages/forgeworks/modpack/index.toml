@@ -1324,6 +1324,11 @@ hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
 
 [[files]]
+file = "mods/cutting-delight.pw.toml"
+hash = "a7e4b25d39a2b984af333de2c514dc600b98909da6a852bdd4f0d34aa9329f41"
+metafile = true
+
+[[files]]
 file = "mods/darksmelting.pw.toml"
 hash = "6fc1a7cc83770a95f325579fb9c9e8962b2c7253369274ef3d64f5a130e9c035"
 metafile = true
