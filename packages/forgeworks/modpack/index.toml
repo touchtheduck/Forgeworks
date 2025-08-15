@@ -1164,6 +1164,11 @@ hash = "2796ebdf74168df1069e4b1e959ee953a805ae33e6f28d66e26c40455c338cdc"
 metafile = true
 
 [[files]]
+file = "mods/create-factory-logistics.pw.toml"
+hash = "f25375cab8d57ae282441db3edcfc40777ea91ea3a81b142e2a8b0776e438889"
+metafile = true
+
+[[files]]
 file = "mods/create-food.pw.toml"
 hash = "27e4baf28b5a25d4cf1c9e3b46d35b0eca6e3d86a3a4088929e297a4a3a14b7d"
 metafile = true
