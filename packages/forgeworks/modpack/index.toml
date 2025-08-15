@@ -1119,6 +1119,11 @@ hash = "96b478530974a35209902e8d0f9276c1ff08cc574d94288193e7894a7867386c"
 metafile = true
 
 [[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "b16030af65034573343cab02514165374a7fcf67766958b30fa164a7eb95d451"
+metafile = true
+
+[[files]]
 file = "mods/create-dough-compat.pw.toml"
 hash = "db98d8e2a2f01cee0c42e852a89bb1a834d662c1c9a65afae0bdfc2663930a9a"
 metafile = true
