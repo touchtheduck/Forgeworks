@@ -2049,6 +2049,11 @@ hash = "5ba9a417876ea4139a20bf9d89e6bab3521d27d5e6caca925f12b74127564eed"
 metafile = true
 
 [[files]]
+file = "mods/simple-conveyor-belts.pw.toml"
+hash = "b4d180bcd1511c11480f5bf96ef6513f4c27b99ec616562acb1932ebbeacfbed"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "800769bd251db47cf9e362bd88f2470a44bc526bb8ed9690f5d26a4f43a1a9a2"
 metafile = true
