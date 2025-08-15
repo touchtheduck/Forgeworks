@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+# [forgeworks@1.5.0](https://github.com/jaronz/forgeworks/compare/forgeworks@1.4.1...forgeworks@1.5.0) - (2025-08-15)
+
+## 🚀 Features
+
+- Add Create Factory Logistics mod ([d50123b](https://github.com/jaronz/forgeworks/commit/d50123b3a0ab6337b6e3080e94daa77a6d5b5305)) ([#80](https://github.com/jaronz/forgeworks/pull/80) by @JaronZ)
+- Add Create: Extended Wrenches mod ([c222aac](https://github.com/jaronz/forgeworks/commit/c222aac08097d8b5f71af2f68c6c0b986f862529)) ([#79](https://github.com/jaronz/forgeworks/pull/79) by @JaronZ)
+- Add Create: Diesel Generators mod ([e273446](https://github.com/jaronz/forgeworks/commit/e27344609be7e86786ce38b6897d35c441f13b77)) ([#78](https://github.com/jaronz/forgeworks/pull/78) by @JaronZ)
+- Add Simple Conveyor Belts mod ([2b7e75e](https://github.com/jaronz/forgeworks/commit/2b7e75e61ee896810cb9d0b872e918db183024e0)) ([#77](https://github.com/jaronz/forgeworks/pull/77) by @JaronZ)
+- Add MrCrayfish's Furniture Mod: Refurbished mod ([b8d615f](https://github.com/jaronz/forgeworks/commit/b8d615f313ee208299dfa46dca32a5fcb2c2034b)) ([#76](https://github.com/jaronz/forgeworks/pull/76) by @JaronZ)
+- Add Cutting Delight mod ([5b9e316](https://github.com/jaronz/forgeworks/commit/5b9e31650010759878b5dfc883892f565a70518c)) ([#75](https://github.com/jaronz/forgeworks/pull/75) by @JaronZ)
+- Added create config ([5751f76](https://github.com/jaronz/forgeworks/commit/5751f76f35cf0e03cd5602325d3479e190f2faa3)) ([#62](https://github.com/jaronz/forgeworks/pull/62) by @LiekevK)
+
 # [forgeworks@1.4.1](https://github.com/jaronz/forgeworks/compare/forgeworks@1.4.0...forgeworks@1.4.1) - (2025-08-12)
 
 ## 🐛 Bug Fixes
