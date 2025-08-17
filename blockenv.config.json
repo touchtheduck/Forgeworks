@@ -1,3 +1,19 @@
 {
-	"baseDir": "environment"
+	"baseDir": "environment",
+	"environments": {
+		"client": {
+			"name": "Client Environment",
+			"type": "client",
+			"path": "client",
+			"playerName": "DevPlayer",
+			"arguments": {
+				"jvm": ["-Xmx10G"]
+			}
+		},
+		"server": {
+			"name": "Server Environment",
+			"type": "server",
+			"path": "server"
+		}
+	}
 }

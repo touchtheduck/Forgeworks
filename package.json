@@ -18,7 +18,7 @@
 		"clean:server": "blockenv clean -s server",
 		"setup:client": "blockenv setup -s client --loader-version 21.1.173 -m 1.21.1",
 		"setup:server": "blockenv setup -s server --loader-version 21.1.173",
-		"env:client": "blockenv launch -s client -p NeoForge",
+		"env:client": "blockenv launch -e client -p NeoForge",
 		"env:server": "blockenv launch -s server"
 	},
 	"devDependencies": {
