@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./icon.jpeg" alt="Modpack Icon" width="300" />
+<img src="./icon.png" alt="Modpack Icon" width="300" />
 
 # Forgeworks
 
