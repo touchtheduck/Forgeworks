@@ -93,10 +93,6 @@ file = "kubejs/data/alltheores/worldgen/configured_feature/ore_cinnabar.json"
 hash = "8a7cad8e704ef9f9784c13ebf22132b1596b137331dd639c7fd81777ce76d220"
 
 [[files]]
-file = "kubejs/data/alltheores/worldgen/configured_feature/ore_iridium.json"
-hash = "8a7cad8e704ef9f9784c13ebf22132b1596b137331dd639c7fd81777ce76d220"
-
-[[files]]
 file = "kubejs/data/alltheores/worldgen/configured_feature/ore_peridot.json"
 hash = "8a7cad8e704ef9f9784c13ebf22132b1596b137331dd639c7fd81777ce76d220"
 
