@@ -22,7 +22,7 @@ hash = "c48a76ddfea326733cedb83af15f4e54c3eebf83f5fa05475ee9b064672cc1e9"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "4e364df076ef0ecbaae9262155ac1291eb83d7b5b8e02dbf21f175a471dcf665"
+hash = "4f30b605826bbb4c6a912649b07ce54ea54ecab95cd1dabc783d8f60ce4cbb83"
 
 [[files]]
 file = "config/create-server.toml"
@@ -126,10 +126,6 @@ hash = "8a7cad8e704ef9f9784c13ebf22132b1596b137331dd639c7fd81777ce76d220"
 
 [[files]]
 file = "kubejs/data/croptopia/loot_table/blocks/salt_ore.json"
-hash = "7590280f6dd13cebd167088bf39d924ab8b19992a85f0e02509e49c9282c9a44"
-
-[[files]]
-file = "kubejs/data/croptopia/loot_tables/blocks/salt_ore.json"
 hash = "7590280f6dd13cebd167088bf39d924ab8b19992a85f0e02509e49c9282c9a44"
 
 [[files]]
