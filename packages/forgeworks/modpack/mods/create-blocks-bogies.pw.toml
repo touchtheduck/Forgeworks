@@ -1,0 +1,13 @@
+name = "Create: Blocks & Bogies"
+filename = "create_bb-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "63498af5995fc5759167920d821093b3135e2a88"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6860530
+project-id = 1317252
