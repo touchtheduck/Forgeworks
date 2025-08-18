@@ -966,6 +966,11 @@ hash = "b10f0cbd34f6cf6773ab6ea64062546ca25c60ee85d74a38e526c1615665e652"
 metafile = true
 
 [[files]]
+file = "mods/cfm-wap.pw.toml"
+hash = "5082c5283186f8ac7801c446906b057a3cc95762963a7b227375980b43caab19"
+metafile = true
+
+[[files]]
 file = "mods/christmas-delight.pw.toml"
 hash = "1c0aa4ce97caaeeff518e87711dff2769402148d74467f75154bc0e9843e4979"
 metafile = true
