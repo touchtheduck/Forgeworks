@@ -1081,6 +1081,11 @@ hash = "6934548153dac7f62c12ecbc32e5208db515a5c500760fd39a4667a41b3b321d"
 metafile = true
 
 [[files]]
+file = "mods/create-blocks-bogies.pw.toml"
+hash = "659ca3398ec40e1cb9e964c4730436061630c52849248d9269d409af21a87f0f"
+metafile = true
+
+[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "705afd37fe84d9d4ea5b39eaed4f136649e4f5880ab1f2be4cb41f0bbce6a49a"
 metafile = true
