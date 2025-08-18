@@ -14,12 +14,12 @@
 		"predev:server": "yarn setup:server && yarn clean:server && turbo run predev",
 		"dev:client": "yarn predev:client && yarn env:client",
 		"dev:server": "yarn predev:server && yarn env:server",
-		"clean:client": "blockenv clean -s client",
-		"clean:server": "blockenv clean -s server",
-		"setup:client": "blockenv setup -s client --loader-version 21.1.173 -m 1.21.1",
-		"setup:server": "blockenv setup -s server --loader-version 21.1.173",
+		"clean:client": "blockenv clean -e client",
+		"clean:server": "blockenv clean -e server",
+		"setup:client": "blockenv setup -e client --new-setup-order",
+		"setup:server": "blockenv setup -e server --new-setup-order",
 		"env:client": "blockenv launch -e client -p NeoForge",
-		"env:server": "blockenv launch -s server"
+		"env:server": "blockenv launch -e server"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.8.1",

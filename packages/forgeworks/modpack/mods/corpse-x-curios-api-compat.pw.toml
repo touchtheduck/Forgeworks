@@ -1,13 +1,13 @@
 name = "Corpse x Curios API Compat"
-filename = "gravestonecurioscompat-1.21.1-NeoForge-3.0.2.jar"
+filename = "corpsecurioscompat-1.21.1-NeoForge-3.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2352cfd94c877c4853760c701a35683e71fb419d"
+hash = "b5b913ed0452e132b4bb6a7a73348cb0fcf3851b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6616675
+file-id = 6898077
 project-id = 1138130
