@@ -1266,6 +1266,11 @@ hash = "c4802fe430d0a5aac62eabeb195db7771d7e6907ba5f68b5ca231cf33d61b3a8"
 metafile = true
 
 [[files]]
+file = "mods/create-sophisticated-backpacks-compat.pw.toml"
+hash = "7e6cf9b0d48cce70273efbc86f834d138aaec540cecfe693d23389ef78181c6f"
+metafile = true
+
+[[files]]
 file = "mods/create-stock-bridge.pw.toml"
 hash = "8b3e4dc52381c3f3aa9f1ac5d335da663f8def2732735f57b3684fb35d2ac079"
 metafile = true
