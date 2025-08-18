@@ -1,6 +1,6 @@
 name: Mod Request
 description: Request for a mod to be added to the server or for clients.
-labels: ["type: mod"]
+labels: ["type:mod"]
 assignees: ["jaronz", "liekevk"]
 title: "[MOD] "
 
