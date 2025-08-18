@@ -1216,6 +1216,11 @@ hash = "d7e0858a7341e415fd0be21382cacdec7a98aaec78e3703f1c9688aebbfebdc7"
 metafile = true
 
 [[files]]
+file = "mods/create-more-parallel-pipes.pw.toml"
+hash = "48397df38580c8fe0815f77f8118dda1bf25b31f5fd193ac7acb631cb6cc6b39"
+metafile = true
+
+[[files]]
 file = "mods/create-new-beginnings.pw.toml"
 hash = "eb2756f9aa3f8395c8a1872847c35b434a8786e909ecbacf04b85713c659869b"
 metafile = true
