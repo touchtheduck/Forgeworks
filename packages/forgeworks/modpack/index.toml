@@ -967,7 +967,7 @@ metafile = true
 
 [[files]]
 file = "mods/cfm-wap.pw.toml"
-hash = "5082c5283186f8ac7801c446906b057a3cc95762963a7b227375980b43caab19"
+hash = "c6e35319cc7df0a8351c46e496a94b652d158d4b57ea232df732062b313830d2"
 metafile = true
 
 [[files]]
