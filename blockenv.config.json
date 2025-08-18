@@ -6,6 +6,10 @@
 			"type": "client",
 			"path": "client",
 			"playerName": "DevPlayer",
+			"loader": {
+				"name": "neoforge",
+				"version": "21.1.200"
+			},
 			"arguments": {
 				"jvm": ["-Xmx10G"]
 			}
@@ -13,7 +17,11 @@
 		"server": {
 			"name": "Server Environment",
 			"type": "server",
-			"path": "server"
+			"path": "server",
+			"loader": {
+				"name": "neoforge",
+				"version": "21.1.200"
+			}
 		}
 	}
 }

@@ -1,13 +1,13 @@
 name = "Stellaris"
-filename = "stellaris-1.21-neoforge-1.4.5.jar"
+filename = "stellaris-1.21-neoforge-1.4.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "865642b93cb3c29a495769e8f78a92449b2d13bd"
+hash = "64a1a802ad490df554df05313547ebf424852e47"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6871453
+file-id = 6889105
 project-id = 1036270

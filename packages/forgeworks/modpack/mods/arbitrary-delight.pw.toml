@@ -1,13 +1,13 @@
 name = "Arbitrary Delight"
-filename = "arbitrarydelight-0.6.0.jar"
+filename = "arbitrarydelight-0.7.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b4762b643682fb486d4eed335db179e0be4287d9"
+hash = "6ed0349c27a2218a2742ca98f2687073f1371c51"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6868637
+file-id = 6890765
 project-id = 1228903
