@@ -1,13 +1,13 @@
 name = "Vanilla Delight"
-filename = "vanilladelight-1.0.2-1.21.1.jar"
+filename = "vanilladelight-1.21.1-1.0.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7c45e941d4351810b9df692c08a6f78a32426db6"
+hash = "544b3b37b0e48edc193726cedd8090295a5dcd4a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6477440
+file-id = 6893601
 project-id = 1209304
