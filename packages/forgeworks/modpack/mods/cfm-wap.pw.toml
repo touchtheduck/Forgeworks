@@ -1,0 +1,13 @@
+name = "CFM Refurbished: Watt About Power?"
+filename = "cfm_circuit_breaker-forge-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d41f8764be732c83d1924efc04595ff429cae41a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6178016
+project-id = 1170251
