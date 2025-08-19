@@ -1295,6 +1295,11 @@ hash = "f424363c6270dd649b02b2d0a468f13e991b8d15eca29f74a69573aeaeb50677"
 metafile = true
 
 [[files]]
+file = "mods/create-trainutilities.pw.toml"
+hash = "5afdec7f6eb045c116f4efcc8f9fdbc09d02c497384059353de47ea6095ea0af"
+metafile = true
+
+[[files]]
 file = "mods/create-ultimate-factory.pw.toml"
 hash = "9acc4609af14b66a868a2c7573ddfb1af4c026b477a7e0e7f2973b6d9fe5e8fc"
 metafile = true
@@ -1392,6 +1397,11 @@ metafile = true
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
 hash = "cd39bad9c36e2cd5eb899f85d300f0485c4946f8fe1d5d73a3048a8a93091925"
+metafile = true
+
+[[files]]
+file = "mods/dragonlib.pw.toml"
+hash = "4fc2a6ee2cb5cce3178d5e47da81356aa59262352faf4b9cc7077a536a16e6a4"
 metafile = true
 
 [[files]]
