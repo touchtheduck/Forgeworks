@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+# [forgeworks@1.7.0](https://github.com/jaronz/forgeworks/compare/forgeworks@1.6.0...forgeworks@1.7.0) - (2025-08-19)
+
+## 🚀 Features
+
+- Add Pretty In Pink mod ([4d5e7da](https://github.com/jaronz/forgeworks/commit/4d5e7daff204eadf93f880489ed0f794ff4d7a29)) ([#109](https://github.com/jaronz/forgeworks/pull/109) by @JaronZ)
+- Add Create: Colored mod ([53ad0a6](https://github.com/jaronz/forgeworks/commit/53ad0a612cf87b274f059f9c9c6da1563d2a2471)) ([#108](https://github.com/jaronz/forgeworks/pull/108) by @JaronZ)
+- Add Create Train Utilities mod ([6134c9b](https://github.com/jaronz/forgeworks/commit/6134c9bfa3ee12a90b3a988e7b90a0cca62f4252)) ([#107](https://github.com/jaronz/forgeworks/pull/107) by @JaronZ)
+- Make create chocolate milk powder heated ([4e15380](https://github.com/jaronz/forgeworks/commit/4e15380ff1c42fac5060c27c9ee6baa7be73f78a)) ([#106](https://github.com/jaronz/forgeworks/pull/106) by @JaronZ)
+
 # [forgeworks@1.6.0](https://github.com/jaronz/forgeworks/compare/forgeworks@1.5.0...forgeworks@1.6.0) - (2025-08-19)
 
 ## 🚀 Features

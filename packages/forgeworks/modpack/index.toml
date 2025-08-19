@@ -22,7 +22,7 @@ hash = "c48a76ddfea326733cedb83af15f4e54c3eebf83f5fa05475ee9b064672cc1e9"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "3566f35cc6192955272a30fa2b6af3440378624e026fe99554945a5c9d7f7a7b"
+hash = "f7bc7f67ae89a09f93011f624d95917006f95b0141f324f18d3fc501f60906d6"
 
 [[files]]
 file = "config/create-server.toml"
