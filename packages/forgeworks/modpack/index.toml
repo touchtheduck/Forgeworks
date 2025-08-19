@@ -113,6 +113,10 @@ file = "kubejs/data/c/tags/fluid/milk.json"
 hash = "888ab1b21d0381510eda93ae422d89c03982ac79dac30980c0ca4e4e27eb652d"
 
 [[files]]
+file = "kubejs/data/create_chocolate/recipe/mixing/milk_powder.json"
+hash = "d9b040f8eb3781b407a694082a31dfc666b193ded683543494091ed454426ee3"
+
+[[files]]
 file = "kubejs/data/createfood/recipe/farmersdelight/cutting/bread_slice_from_cutting.json"
 hash = "8a7cad8e704ef9f9784c13ebf22132b1596b137331dd639c7fd81777ce76d220"
 
