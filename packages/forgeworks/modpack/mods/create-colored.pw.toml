@@ -1,0 +1,13 @@
+name = "Create: Colored"
+filename = "create_colored-1.1.3+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7d448902c6718466cd1037cd99331102619baf77"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6714955
+project-id = 1297736

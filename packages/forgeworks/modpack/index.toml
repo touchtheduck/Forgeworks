@@ -1110,6 +1110,11 @@ hash = "3cf65d683a39c8b82df455937f37f5830e50d89fb5c9b72815eac47c035b459a"
 metafile = true
 
 [[files]]
+file = "mods/create-colored.pw.toml"
+hash = "c10903be2587898618ca25a7b218c82bbb1821aea7fb1d7f2f31bcd01077267e"
+metafile = true
+
+[[files]]
 file = "mods/create-compressed.pw.toml"
 hash = "f33839cc6e7476f117fee6f062770dc19bbd4be41cb430ffabefa79c4c6bf308"
 metafile = true
