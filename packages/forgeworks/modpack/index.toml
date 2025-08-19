@@ -2035,6 +2035,11 @@ hash = "aade2ad1f0fe455a9af46aefe582118840fd9182d3faa2350fbaeb898266e31d"
 metafile = true
 
 [[files]]
+file = "mods/pretty-in-pink.pw.toml"
+hash = "5551faf28fc71d873c4c0a82f61697673b84da0d2c2202bce21ba96f1481b048"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "cedad7783a39b743dee74a7bb4035dc865e9e85c656468314b642c55f1f0e97d"
 metafile = true
