@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+# [forgeworks@1.6.0](https://github.com/jaronz/forgeworks/compare/forgeworks@1.5.0...forgeworks@1.6.0) - (2025-08-19)
+
+## 🚀 Features
+
+- Added Create: Copycats+ mod ([adfde1b](https://github.com/jaronz/forgeworks/commit/adfde1b1e0525d0c6daa3a5ee993711912d1736c)) ([#92](https://github.com/jaronz/forgeworks/pull/92) by @JaronZ)
+- Added Create: Sophisticated Backpacks Compat mod ([6f823d8](https://github.com/jaronz/forgeworks/commit/6f823d8585f50c949bd74419249f3af10bbc276f)) ([#91](https://github.com/jaronz/forgeworks/pull/91) by @JaronZ)
+- Added Create More: Parallel Pipes mod ([2d13135](https://github.com/jaronz/forgeworks/commit/2d131358d3fe5373f364b4a304f6be67f2edc6bf)) ([#90](https://github.com/jaronz/forgeworks/pull/90) by @JaronZ)
+- Added Create: Mobile Packages mod ([137c63e](https://github.com/jaronz/forgeworks/commit/137c63ef783e10d7dcc873f649d03885ffa40712)) ([#89](https://github.com/jaronz/forgeworks/pull/89) by @JaronZ)
+- Added CFM Refurbished: Watt About Power? mod ([cdd4e40](https://github.com/jaronz/forgeworks/commit/cdd4e4065a34e018642ce27edf8bd4b81e139b69)) ([#88](https://github.com/jaronz/forgeworks/pull/88) by @JaronZ)
+- Added Create: Blocks & Bogies mod ([8381a9b](https://github.com/jaronz/forgeworks/commit/8381a9bea14820b0e3b2f1f27ed3bb65487691d1)) ([#87](https://github.com/jaronz/forgeworks/pull/87) by @JaronZ)
+- Enable sulfur ore ([46da29b](https://github.com/jaronz/forgeworks/commit/46da29b2b676cefbe76fb4aff8e323365a96b921)) ([#86](https://github.com/jaronz/forgeworks/pull/86) by @JaronZ)
+- Enable iridium ore ([f25cdb6](https://github.com/jaronz/forgeworks/commit/f25cdb6feab489c97108a4714de6b5e26431eb65)) ([#85](https://github.com/jaronz/forgeworks/pull/85) by @JaronZ)
+
 # [forgeworks@1.5.0](https://github.com/jaronz/forgeworks/compare/forgeworks@1.4.1...forgeworks@1.5.0) - (2025-08-15)
 
 ## 🚀 Features
