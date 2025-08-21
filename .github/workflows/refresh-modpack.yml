@@ -48,8 +48,8 @@ jobs:
           GITHUB_USER: jaronz-ci[bot]
           GITHUB_EMAIL: 227836284+jaronz-ci[bot]@users.noreply.github.com
           token: ${{ steps.create-token.outputs.token }}
-      - name: Build
-        run: yarn build
+      #      - name: Build
+      #        run: yarn build
       - name: Refresh Modpack
         working-directory: packages/${{ matrix.modpack }}/modpack
         run: nix develop --command packwiz refresh
