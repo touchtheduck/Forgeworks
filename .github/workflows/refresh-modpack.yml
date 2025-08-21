@@ -3,10 +3,9 @@ on:
   push:
     branches:
       - main
-  pull_request_target:
-    types:
-      - opened
-      - synchronize
+  pull_request:
+    branches:
+      - main
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
@@ -24,6 +23,12 @@ jobs:
         modpack:
           - forgeworks
     steps:
+      - name: Create App Token
+        uses: actions/create-github-app-token@v2
+        id: create-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
       - name: Checkout Repository
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
@@ -34,15 +39,15 @@ jobs:
           node-version: 22
       - name: Install nix
         uses: cachix/install-nix-action@526118121621777ccd86f79b04685a9319637641 # v31
-      - name: Configure Git
-        run: |
-          git remote set-url origin "https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${GITHUB_REPOSITORY}.git"
-          git config --local user.email "${GITHUB_EMAIL}"
-          git config --local user.name "${GITHUB_USER}"
-        env:
-          GITHUB_USER: github-actions[bot]
-          GITHUB_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #      - name: Configure Git
+      #        run: |
+      #          git remote set-url origin "https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${GITHUB_REPOSITORY}.git"
+      #          git config --local user.email "${GITHUB_EMAIL}"
+      #          git config --local user.name "${GITHUB_USER}"
+      #        env:
+      #          GITHUB_USER: github-actions[bot]
+      #          GITHUB_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+      #          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Build
         run: yarn build
       - name: Refresh Modpack
@@ -59,4 +64,4 @@ jobs:
             echo "No changes to commit."
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.create-token.outputs.token }}
