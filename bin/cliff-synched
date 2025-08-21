@@ -33,4 +33,8 @@ if ! has_param "--dry-run" "$@"; then
     git add "$PACK_FILE" "$COMPAT_CHECK_CONFIG_FILE"
     git commit --amend --no-edit
     git push --force-with-lease
+    tag=$(git describe --tags --abbrev=0)
+    message=$(git tag -l --format="%(contents)" "$tag")
+    git tag -f -a "$tag" -m "$message"
+    git push --force --tags
 fi
