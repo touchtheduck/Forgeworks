@@ -37,12 +37,14 @@ jobs:
         run: yarn build
       - name: Export CurseForge Package
         working-directory: packages/${{ inputs.package }}
-        run: yarn curseforge:export -o ../export-${{ github.run_id }}/curseforge.zip
+        run: |
+          mkdir -p export
+          yarn ci:curseforge:export
       - name: Upload Exported Packages
         uses: actions/upload-artifact@v4
         with:
           name: export
-          path: packages/${{ inputs.package }}/export-${{ github.run_id }}/
+          path: packages/${{ inputs.package }}/export/
 
   PublishPackage:
     name: Publish ${{ inputs.package }}
@@ -64,6 +66,11 @@ jobs:
           fetch-depth: 0
           ref: main
           token: ${{ steps.create-token.outputs.token }}
+      - name: Download Exported Packages
+        uses: actions/download-artifact@v5
+        with:
+          name: export
+          path: ./export/
       - name: Install Dependencies
         uses: ./.github/actions/install-yarn-dependencies
         with:
@@ -85,13 +92,9 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ steps.create-token.outputs.token }}
-      - name: Download Exported Packages
-        uses: actions/download-artifact@v5
-        with:
-          name: export
       - name: Upload Exported Packages
         run: |
-          tag=$(git describe --tags --abbrev=0)
+          tag=$(gh release view --json tagName -q .tagName)
           gh release upload "$tag" export/curseforge.zip
         env:
           GITHUB_TOKEN: ${{ steps.create-token.outputs.token }}

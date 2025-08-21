@@ -25,7 +25,8 @@
 		"modrinth:add": "cd modpack && packwiz modrinth add",
 		"modrinth:export": "yarn build && cd modpack && packwiz modrinth export",
 		"modpack:refresh": "cd modpack && packwiz refresh",
-		"modpack:settings": "cd modpack && packwiz settings"
+		"modpack:settings": "cd modpack && packwiz settings",
+		"ci:curseforge:export": "yarn build && cd modpack && nix develop --command packwiz curseforge export -o ../export/curseforge.zip"
 	},
 	"devDependencies": {
 		"@favware/cliff-jumper": "^6.0.0",
