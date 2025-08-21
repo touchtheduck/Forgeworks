@@ -13,6 +13,8 @@
       <excludeFolder url="file://$MODULE_DIR$/environment/server" />
       <excludeFolder url="file://$MODULE_DIR$/packages/forgeworks/modpack/kubejs" />
       <excludeFolder url="file://$MODULE_DIR$/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/minigames/.turbo" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/minigames/kubejs" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
