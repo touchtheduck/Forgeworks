@@ -25,12 +25,18 @@ jobs:
       id-token: write
       contents: write
     steps:
+      - name: Create App Token
+        uses: actions/create-github-app-token@v2
+        id: create-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
       - name: Checkout Project
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           ref: main
-          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          token: ${{ steps.create-token.outputs.token }}
       - name: Install Dependencies
         uses: ./.github/actions/install-yarn-dependencies
         with:
@@ -40,8 +46,8 @@ jobs:
           git config --local user.email "${GITHUB_EMAIL}"
           git config --local user.name "${GITHUB_USER}"
         env:
-          GITHUB_USER: github-actions[bot]
-          GITHUB_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GITHUB_USER: jaronz-ci[bot]
+          GITHUB_EMAIL: 227836284+jaronz-ci[bot]@users.noreply.github.com
       - name: Build
         run: yarn build
       - name: Bump Versions and make release
@@ -53,4 +59,4 @@ jobs:
             yarn bump
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.create-token.outputs.token }}
