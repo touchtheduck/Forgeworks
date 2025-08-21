@@ -18,9 +18,36 @@ on:
         type: boolean
 
 jobs:
+  ExportPackage:
+    name: Export ${{ inputs.package }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Project
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+      - name: Install Dependencies
+        uses: ./.github/actions/install-yarn-dependencies
+        with:
+          node-version: 22
+      - name: Install nix
+        uses: cachix/install-nix-action@526118121621777ccd86f79b04685a9319637641 # v31
+      - name: Build Package
+        run: yarn build
+      - name: Export CurseForge Package
+        working-directory: packages/${{ inputs.package }}
+        run: yarn curseforge:export -o ../export-${{ github.run_id }}/curseforge.zip
+      - name: Upload Exported Packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: export
+          path: packages/${{ inputs.package }}/export-${{ github.run_id }}/
+
   PublishPackage:
     name: Publish ${{ inputs.package }}
     runs-on: ubuntu-latest
+    needs: ExportPackage
     permissions:
       id-token: write
       contents: write
@@ -48,8 +75,6 @@ jobs:
         env:
           GITHUB_USER: jaronz-ci[bot]
           GITHUB_EMAIL: 227836284+jaronz-ci[bot]@users.noreply.github.com
-      - name: Build
-        run: yarn build
       - name: Bump Versions and make release
         working-directory: packages/${{ inputs.package }}
         run: |
@@ -58,5 +83,15 @@ jobs:
           else
             yarn bump
           fi
+        env:
+          GITHUB_TOKEN: ${{ steps.create-token.outputs.token }}
+      - name: Download Exported Packages
+        uses: actions/download-artifact@v5
+        with:
+          name: export
+      - name: Upload Exported Packages
+        run: |
+          tag=$(git describe --tags --abbrev=0)
+          gh release upload "$tag" export/curseforge.zip
         env:
           GITHUB_TOKEN: ${{ steps.create-token.outputs.token }}
