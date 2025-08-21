@@ -40,6 +40,14 @@ jobs:
           node-version: 22
       - name: Install nix
         uses: cachix/install-nix-action@526118121621777ccd86f79b04685a9319637641 # v31
+      - name: Configure Git
+        run: |
+          git config --local user.email "${GITHUB_EMAIL}"
+          git config --local user.name "${GITHUB_USER}"
+        env:
+          GITHUB_USER: jaronz-ci[bot]
+          GITHUB_EMAIL: 227836284+jaronz-ci[bot]@users.noreply.github.com
+          token: ${{ steps.create-token.outputs.token }}
       - name: Build
         run: yarn build
       - name: Refresh Modpack
