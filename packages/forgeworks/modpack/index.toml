@@ -125,10 +125,6 @@ file = "kubejs/data/croptopia/loot_table/blocks/salt_ore.json"
 hash = "7590280f6dd13cebd167088bf39d924ab8b19992a85f0e02509e49c9282c9a44"
 
 [[files]]
-file = "kubejs/data/croptopia/loot_tables/blocks/salt_ore.json"
-hash = "7590280f6dd13cebd167088bf39d924ab8b19992a85f0e02509e49c9282c9a44"
-
-[[files]]
 file = "kubejs/data/expandeddelight/worldgen/configured_feature/sait_ore.json"
 hash = "8a7cad8e704ef9f9784c13ebf22132b1596b137331dd639c7fd81777ce76d220"
 
