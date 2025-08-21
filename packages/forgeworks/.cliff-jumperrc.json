@@ -1,14 +1,15 @@
 {
-  "$schema": "https://raw.githubusercontent.com/favware/cliff-jumper/main/assets/cliff-jumper.schema.json",
-  "name": "forgeworks",
-  "install": true,
-  "packagePath": "packages/forgeworks",
-  "identifierBase": false,
-  "pushTag": true,
-  "githubRelease": true,
-  "githubReleaseLatest": true,
-  "gitRepo": "jaronz/forgeworks",
-  "gitHostVariant": "github",
-  "gitToken": "TRY_AGAIN_LATER",
-  "tagTemplate": "{{name}}@{{new-version}}"
+	"$schema": "https://raw.githubusercontent.com/favware/cliff-jumper/main/assets/cliff-jumper.schema.json",
+	"name": "forgeworks",
+	"install": true,
+	"packagePath": "packages/forgeworks",
+	"identifierBase": false,
+	"pushTag": true,
+	"githubRelease": true,
+	"githubReleaseLatest": true,
+	"gitRepo": "jaronz/forgeworks",
+	"gitHostVariant": "github",
+	"gitToken": "TRY_AGAIN_LATER",
+	"tagTemplate": "{{name}}@{{new-version}}",
+	"monoRepo": true
 }

@@ -10,5 +10,6 @@
 	"gitRepo": "jaronz/forgeworks",
 	"gitHostVariant": "github",
 	"gitToken": "TRY_AGAIN_LATER",
-	"tagTemplate": "{{name}}@{{new-version}}"
+	"tagTemplate": "{{name}}@{{new-version}}",
+	"monoRepo": true
 }
