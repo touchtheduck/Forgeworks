@@ -640,15 +640,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jaronline/blockenv@npm:^1.0.1-next.7328496":
-  version: 1.0.1-next.7328496
-  resolution: "@jaronline/blockenv@npm:1.0.1-next.7328496"
+"@jaronline/blockenv@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@jaronline/blockenv@npm:1.1.1"
   dependencies:
     commander: "npm:^14.0.0"
     unzipper: "npm:^0.12.3"
   bin:
     blockenv: bin/blockenv
-  checksum: 10c0/652ef96d6fe1b77c9698bcf33c2c8beb421dbfd303484b2ecd57aed8cb58b47bb09f10074eeb4b2058f981981a9154c7fc1437b37571762b4b1daae830914dfa
+  checksum: 10c0/69c76b6acbbd14a2a820de3e91fe14750f096e22c5837b2094fa24f78bb533c08f3dbd985bcb353e32d9b0e29ef68542e6e086f0f9ca0540d565dd7de3a58f92
   languageName: node
   linkType: hard
 
@@ -2565,7 +2565,7 @@ __metadata:
     "@commitlint/types": "npm:^19.8.1"
     "@eslint/js": "npm:^9.27.0"
     "@favware/cliff-jumper": "npm:^6.0.0"
-    "@jaronline/blockenv": "npm:^1.0.1-next.7328496"
+    "@jaronline/blockenv": "npm:^1.1.1"
     "@types/node": "npm:^22.15.18"
     "@vitest/coverage-v8": "npm:^3.1.3"
     eslint: "npm:^9.27.0"

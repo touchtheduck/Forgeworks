@@ -1,4 +1,5 @@
 {
+	"$schema": "./node_modules/@jaronline/blockenv/assets/blockenv.schema.json",
 	"baseDir": "environment",
 	"environments": {
 		"client": {
