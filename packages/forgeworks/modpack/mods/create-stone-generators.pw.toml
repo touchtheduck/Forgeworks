@@ -1,13 +1,13 @@
 name = "Create: Easy Stone Generators [Forge/Fabric/NeoForge]"
-filename = "create_generators-1.0.5-neoforge-1.21.1.jar"
+filename = "create_generators-1.2.5-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "87b4c0c701a63b07b500ea8acaef33c0b31cb84c"
+hash = "8aa74f352530af34cd5e2d88f27349bb828fbe20"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6256758
+file-id = 7088011
 project-id = 1206505

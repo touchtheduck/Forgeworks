@@ -1,13 +1,13 @@
 name = "Aether Addon: Overworld Ores"
-filename = "aether_overworld_ores-1.21.1-1.0.0-neoforge.jar"
+filename = "aether_overworld_ores-1.21.1-1.0.2-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "67ac1274b3ab88268ae76251c5968f15d2e22fa8"
+hash = "78c466c4f48831c53c45f936104e683070f93a01"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6397003
+file-id = 6950255
 project-id = 1237218

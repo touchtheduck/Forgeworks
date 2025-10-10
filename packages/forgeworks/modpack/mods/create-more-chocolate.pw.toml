@@ -1,13 +1,13 @@
 name = "Create: More Chocolate"
-filename = "create_chocolate-3.4.0-1.21.1.jar"
+filename = "create_chocolate-3.5.0-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5766e31424b9751dd876dabaaa306724f1f41085"
+hash = "a6e4ed08def824d546bf6d3ab8a985a0404a5a4d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6644790
+file-id = 6912150
 project-id = 1006891
