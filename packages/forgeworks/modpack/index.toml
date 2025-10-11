@@ -1666,6 +1666,11 @@ hash = "1539830d9e082c9973f5f9746576612f3b2120500289d7f488c9b458d16f3dc3"
 metafile = true
 
 [[files]]
+file = "mods/gears-n-kinetics.pw.toml"
+hash = "85a0851e3fcd4518b694649ce8687881b109fa38ed5d33537fa766053802e57a"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "402ca5410076adcf4bff4211d5d734572e0549955d3613ea0942309ec29a409b"
 metafile = true
