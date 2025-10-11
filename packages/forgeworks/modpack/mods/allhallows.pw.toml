@@ -1,0 +1,13 @@
+name = "🎃 Allhallows ~ Halloween "
+filename = "allhallows-neoforge-1.2.0_1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3952786021c8855bdce000a1a67ebc8eeb9f25ed"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7089617
+project-id = 1357803
