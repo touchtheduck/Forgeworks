@@ -1,0 +1,13 @@
+name = "AE2 Web Integration"
+filename = "ae2webintegration-1.0.0-neoforge-1.21.1.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "4ba31091b4a79b8a9ba6bfa62f4f19f820fa7506"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7091257
+project-id = 1122761

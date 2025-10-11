@@ -706,6 +706,11 @@ hash = "dea700f49d6cc370ce3dc745bddd8a49c3acf3f8490b1a6422974500f36a06b0"
 metafile = true
 
 [[files]]
+file = "mods/ae2-web-integration.pw.toml"
+hash = "b1c5daabf1e599bcab8d2ea9cc138d912d253566b54e254992ac484c0f803e85"
+metafile = true
+
+[[files]]
 file = "mods/aether-emissivity.pw.toml"
 hash = "f3452ff57ccdda5a406ec3e1100245e78f0884d3d2dd5f6be1ba885335a6ffb3"
 metafile = true
