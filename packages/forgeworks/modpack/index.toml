@@ -1031,6 +1031,11 @@ hash = "616036c38fafbcaf00c0720d947ec39f571d885a014f0c81b5eeeb4193784e0e"
 metafile = true
 
 [[files]]
+file = "mods/cool-rain-reforged.pw.toml"
+hash = "c0b001290c86a0afe6bff59f8353c92b7ed20dfc4f3629f6c2e5268f08b40a0b"
+metafile = true
+
+[[files]]
 file = "mods/copycats.pw.toml"
 hash = "e8562dd1a88ce84401100e45dbe9edcb8a04b67922718832acb1d1cc6e759b65"
 metafile = true
