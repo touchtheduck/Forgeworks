@@ -2307,7 +2307,7 @@ metafile = true
 
 [[files]]
 file = "mods/twod-projectiles.pw.toml"
-hash = "b170801396355efdb4e8a87124b75218c9226b944ef680927e2737c06bbb8b82"
+hash = "d0338579ae7d665af3beba8005e6aecca6b3f20dc0652f4d8e88359519be96cf"
 metafile = true
 
 [[files]]
