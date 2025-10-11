@@ -1201,6 +1201,11 @@ hash = "9c31c48e180619b42ee088e620812e538f19b37f61d0072fd2e27c3921b75f93"
 metafile = true
 
 [[files]]
+file = "mods/create-fishery-industry.pw.toml"
+hash = "7503de31376068f665520d4692eb30c475117675e7df643e6bc8cb6b08357d41"
+metafile = true
+
+[[files]]
 file = "mods/create-food.pw.toml"
 hash = "27e4baf28b5a25d4cf1c9e3b46d35b0eca6e3d86a3a4088929e297a4a3a14b7d"
 metafile = true
