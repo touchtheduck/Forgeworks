@@ -1351,6 +1351,11 @@ hash = "09f8e2af6cb0a5151a44390389ec62012296ec069dd21eb418079e17b48c2f18"
 metafile = true
 
 [[files]]
+file = "mods/critters-and-companions.pw.toml"
+hash = "b6a806e04f1a6224e6e8be0a74529f13cc2c81f3ea2cb0c243b52e7820f3bf83"
+metafile = true
+
+[[files]]
 file = "mods/croptopia-delight.pw.toml"
 hash = "666cc08c837ff9f66a4418783e04d56124ee92b86aa5febb75d5dbec0d6fc7ce"
 metafile = true
