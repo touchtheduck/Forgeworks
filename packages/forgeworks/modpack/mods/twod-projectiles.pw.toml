@@ -1,0 +1,18 @@
+name = "Gaura's 2D Projectiles"
+filename = "twod_projectiles-neoforge-1.1.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "468ab0162d8f51e9628361d6f3c2657a3ae6ce7a"
+mode = "metadata:curseforge"
+
+[option]
+optional = true
+default = false
+description = "This mod will replace the 3D arrow model with its 2D item texture model."
+
+[update]
+[update.curseforge]
+file-id = 6963140
+project-id = 1294149
