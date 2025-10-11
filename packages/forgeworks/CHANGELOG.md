@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+# [forgeworks@1.8.0](https://github.com/jaronz/forgeworks/compare/forgeworks@1.7.0...forgeworks@1.8.0) - (2025-10-11)
+
+## 🚀 Features
+
+- **Client:** Added Gaura's 2D Projectiles mod ([cd46366](https://github.com/jaronz/forgeworks/commit/cd463667d0c97c8230b43818aa0ca88895c0e045))
+- Added ParCool mod ([15dd75d](https://github.com/jaronz/forgeworks/commit/15dd75de8c2aa93667dcafb2cbb10967ecf27c96))
+- Added Create: Gears n' Kinetics mod ([201f88f](https://github.com/jaronz/forgeworks/commit/201f88f9159fe405f883cd567ed190813304a37b))
+- Added Create: Fishery Industry mod ([88c20b4](https://github.com/jaronz/forgeworks/commit/88c20b40be2f678ef82605f75875cd2d1ec9a132))
+- Added Create: Mixed Casing mod ([2b1a01e](https://github.com/jaronz/forgeworks/commit/2b1a01ed312fd6c9a2a2d335781ed77f1c996834))
+- Added critters-and-companions mod ([a040387](https://github.com/jaronz/forgeworks/commit/a040387067b811d0fe269447384b1edad12026a8)) ([#126](https://github.com/jaronz/forgeworks/pull/126) by @JaronZ)
+- **Client:** Added euphoria patches mod ([d9e84fe](https://github.com/jaronz/forgeworks/commit/d9e84fe463cd550350bc5f0d1a4bca25cf73485f)) ([#125](https://github.com/jaronz/forgeworks/pull/125) by @JaronZ)
+- **Client:** Added cool-rain-reforged mod ([eb115f3](https://github.com/jaronz/forgeworks/commit/eb115f3ea66985155bb47925381cc2399940f398)) ([#124](https://github.com/jaronz/forgeworks/pull/124) by @JaronZ)
+- **Server:** Added ae2-web-integration mod ([d6655d4](https://github.com/jaronz/forgeworks/commit/d6655d46daffcbc865c4b2a95b52495de0ba0d7c)) ([#123](https://github.com/jaronz/forgeworks/pull/123) by @JaronZ)
+- Added simple-loot-viewer mod ([01e7062](https://github.com/jaronz/forgeworks/commit/01e70628174e65c7086a1add812137ee5a8bd68d)) ([#122](https://github.com/jaronz/forgeworks/pull/122) by @JaronZ)
+- Added Vanilla Backport mod ([c87a51d](https://github.com/jaronz/forgeworks/commit/c87a51df0092e4a59c308c58ef0f3febfabb36b0)) ([#121](https://github.com/jaronz/forgeworks/pull/121) by @JaronZ)
+- Remove vegan delight mod ([b22471c](https://github.com/jaronz/forgeworks/commit/b22471c96572d78cf0d79b08c29a9646998bf73b)) ([#120](https://github.com/jaronz/forgeworks/pull/120) by @JaronZ)
+
 # [forgeworks@1.7.0](https://github.com/jaronz/forgeworks/compare/forgeworks@1.6.0...forgeworks@1.7.0) - (2025-08-19)
 
 ## 🚀 Features
