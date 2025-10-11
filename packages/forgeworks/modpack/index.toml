@@ -946,6 +946,11 @@ hash = "434a7b340624e0e0cd3229d24c4816ca1acfbd4980136a0096197bced54cf884"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "1b71b694a3f9998d0e98ec6af0325490e1773e4e1b65f2b82b5bc7d43b73408b"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "c854b73ec29fc1b2af09becafc5380d24dbe91ee809bd3803166563c13d98214"
 metafile = true
@@ -2041,6 +2046,11 @@ hash = "0617af954396c32e8a17140b6fab124cf2fd023f663956b3c4d79022f891d62f"
 metafile = true
 
 [[files]]
+file = "mods/prickle.pw.toml"
+hash = "eab2f56ff9135b3b7253ea5a73deae2f887e2876f5f0432936044a6e926937b4"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "cedad7783a39b743dee74a7bb4035dc865e9e85c656468314b642c55f1f0e97d"
 metafile = true
@@ -2113,6 +2123,11 @@ metafile = true
 [[files]]
 file = "mods/simple-conveyor-belts.pw.toml"
 hash = "bfd7b15a4be3e98425d75a040710a336469b7e22a8d172d9697a31369ace641e"
+metafile = true
+
+[[files]]
+file = "mods/simple-loot-viewer.pw.toml"
+hash = "a4aac110c3f049f224d58b821d02d791661469f32ea7f863e85eae670e91e27e"
 metafile = true
 
 [[files]]
