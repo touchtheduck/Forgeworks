@@ -2271,11 +2271,6 @@ hash = "9f952b7162f9a5b8dc956ca0cef490ef5740b04392b6b85b6365fe92bdf5a32b"
 metafile = true
 
 [[files]]
-file = "mods/vegan-delight.pw.toml"
-hash = "729114b00a1e99f2903ddc56a1ccc889b77b3854b0efc0caa3aa8e31032550b1"
-metafile = true
-
-[[files]]
 file = "mods/villager-names.pw.toml"
 hash = "eb6493a160f157ae4d0f57edccf82036c8a3b514c56dacfe41f9c3fe72583396"
 metafile = true
