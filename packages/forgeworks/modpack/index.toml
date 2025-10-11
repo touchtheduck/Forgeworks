@@ -2011,6 +2011,11 @@ hash = "201e0be56d2d9430843688b4a04dea207732b6d60f8001fb9e6396d48aea287f"
 metafile = true
 
 [[files]]
+file = "mods/platform.pw.toml"
+hash = "58992066f622dfee52a6ed7ad835e461c88ac64f485ef20b0d8662871abe0c3f"
+metafile = true
+
+[[files]]
 file = "mods/pneumaticcraft-repressurized.pw.toml"
 hash = "8325839878c87e8512635d7a26b69b48ac10b102e9ba7225aadba0440c5fc2c5"
 metafile = true
@@ -2268,6 +2273,11 @@ metafile = true
 [[files]]
 file = "mods/vanilla-delight.pw.toml"
 hash = "9f7423e3d81a86723967ab91abaab68dd5abc9ad2e7ff7f08bac2f50ce2a7566"
+metafile = true
+
+[[files]]
+file = "mods/vanillabackport.pw.toml"
+hash = "e6f77a7e8990c5a7759ad9fb3d524b12ae49b169f544a0a5f19984851122b134"
 metafile = true
 
 [[files]]
