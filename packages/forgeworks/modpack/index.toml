@@ -1501,6 +1501,11 @@ hash = "bb3972a97a3915f202ce571fc7b943b2055119a0d70404424505e4dbc811958c"
 metafile = true
 
 [[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "d7dfab3b3d6594898363b8ab807f2fb3598ec3be622ae952831460d56c145b3f"
+metafile = true
+
+[[files]]
 file = "mods/everfurnace.pw.toml"
 hash = "91221cb431d8b5eedddf96d6ab223c2fd2621de4aca4d835f1ec70d91055debf"
 metafile = true
