@@ -707,7 +707,7 @@ metafile = true
 
 [[files]]
 file = "mods/ae2-web-integration.pw.toml"
-hash = "4bc9ff5abfc0490b96df660b9b697ee042b4d0ee06befff3290ec6199e70d174"
+hash = "b1c5daabf1e599bcab8d2ea9cc138d912d253566b54e254992ac484c0f803e85"
 metafile = true
 
 [[files]]
