@@ -1,18 +1,18 @@
 name = "Hidden Recipe Book"
-filename = "hiddenrecipebook-1.21.1-4.9.jar"
+filename = "hiddenrecipebook-1.21.1-5.0.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "151a98164690ae705b998818f280238d33cd4554"
+hash = "9d6d9250e3723dd27051379fb7b90fe23584ee2e"
 mode = "metadata:curseforge"
-
-[option]
-optional = true
-default = true
-description = "Toggle the visiblity of the recipe book icon in the crafting GUI screen."
 
 [update]
 [update.curseforge]
-file-id = 6185881
+file-id = 7059563
 project-id = 459727
+
+[option]
+optional = true
+description = "Toggle the visiblity of the recipe book icon in the crafting GUI screen."
+default = true

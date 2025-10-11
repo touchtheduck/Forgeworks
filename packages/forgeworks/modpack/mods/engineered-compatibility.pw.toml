@@ -1,13 +1,13 @@
 name = "Engineered Compatibility"
-filename = "engineeredcompatibility-4.2.0.jar"
+filename = "engineeredcompatibility-4.3.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c577623642ec19ba65a3420732b0d2e9270f9f4d"
+hash = "70df65d3bfc62f9ca1f851193544226f0eb9b8cb"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6699269
+file-id = 6919495
 project-id = 958266

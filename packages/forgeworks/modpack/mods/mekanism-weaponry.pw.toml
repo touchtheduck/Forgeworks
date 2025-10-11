@@ -1,13 +1,13 @@
 name = "Mekanism Weaponry"
-filename = "mekanism_weaponry-2.1.1.jar"
+filename = "mekanism_weaponry-2.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0738b0844accaa4d02305fa6d87a45da4733e658"
+hash = "dcd9583a8c9518287a814347c51575512b5f33f0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6892122
+file-id = 6971255
 project-id = 1127676
