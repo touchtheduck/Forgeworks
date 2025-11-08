@@ -1609,11 +1609,6 @@ hash = "ad8209e472d463c9fcd19ca708fcd9c1a4a1bc69c9f0ca22efeacb414e9ab7a8"
 metafile = true
 
 [[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "c3943921aff04f28e8dbb2a8d2ec45ad340a29f48c0282478d61335601af199a"
-metafile = true
-
-[[files]]
 file = "mods/framework.pw.toml"
 hash = "11bc4d2951f2bbb0dd17c77534f05c909987e19203398558713bc515f441d5a2"
 metafile = true
@@ -2194,11 +2189,6 @@ hash = "940f49e7dc2aea930c081ce25de12e4da1292283d8e69b09f7573900c359f288"
 metafile = true
 
 [[files]]
-file = "mods/sinytra-connector.pw.toml"
-hash = "12a0518bada653ba9fc76eaa8d31e816318534eaf9782d7e6e5fe540b6b8f231"
-metafile = true
-
-[[files]]
 file = "mods/small-ships.pw.toml"
 hash = "dc7140923a01338926a9bea3708b12ddc2599c1bb6c52b5dc624dbdcdde9385e"
 metafile = true
@@ -2291,11 +2281,6 @@ metafile = true
 [[files]]
 file = "mods/terrablender-neoforge.pw.toml"
 hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
-metafile = true
-
-[[files]]
-file = "mods/terrastorage.pw.toml"
-hash = "dd789d79f3d4898cb93341b65b61641da1ee185c041c339413c7830b7df51e37"
 metafile = true
 
 [[files]]
