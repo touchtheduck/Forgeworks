@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+# [forgeworks@1.9.1](https://github.com/jaronz/forgeworks/compare/forgeworks@1.9.0...forgeworks@1.9.1) - (2025-11-08)
+
+## 🐛 Bug Fixes
+
+- Add back Sinytra Connector mod ([9158109](https://github.com/jaronz/forgeworks/commit/915810991aaaa305d47099cfdce5f82054f5b9de)) ([#139](https://github.com/jaronz/forgeworks/pull/139) by @JaronZ)
+
 # [forgeworks@1.9.0](https://github.com/jaronz/forgeworks/compare/forgeworks@1.8.0...forgeworks@1.9.0) - (2025-11-08)
 
 ## 🚀 Features
