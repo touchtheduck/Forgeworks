@@ -1,13 +1,13 @@
 name = "Cutting Delight"
-filename = "cuttingdelight-1.0.0-beta.1.jar"
+filename = "cuttingdelight-1.0.0-beta.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "232a4efb9202794fa60fd92ee8c6e6dc37cd658c"
+hash = "08ed7fc510eaf068a676374426034a3a912e99db"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7198651
+file-id = 7199489
 project-id = 1327410
