@@ -57,6 +57,14 @@ file = "config/replantingcrops.json5"
 hash = "89103728dcb28a83b4c95c4c4286c3e3a7e60a204665cdbc9e7ded9b40d98fa6"
 
 [[files]]
+file = "config/sereneseasons/fertility.toml"
+hash = "ead7a0aead62bcd6b3c6ed3671538ca0c70cef3ff32f30348b4b9adfc6ceeb75"
+
+[[files]]
+file = "config/sereneseasons/seasons.toml"
+hash = "36bbe527a13fcaa82d2f67a6e899d8f1e95aed01079cda6b4ea90888c9310a15"
+
+[[files]]
 file = "config/sodiumdynamiclights-client.toml"
 hash = "5b36aeb152da44539b205ccf3e87f0edf46079f7be97aa677bf53c2f370d62d9"
 
