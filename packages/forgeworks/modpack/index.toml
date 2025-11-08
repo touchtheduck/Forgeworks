@@ -57,6 +57,14 @@ file = "config/replantingcrops.json5"
 hash = "89103728dcb28a83b4c95c4c4286c3e3a7e60a204665cdbc9e7ded9b40d98fa6"
 
 [[files]]
+file = "config/sereneseasons/fertility.toml"
+hash = "ead7a0aead62bcd6b3c6ed3671538ca0c70cef3ff32f30348b4b9adfc6ceeb75"
+
+[[files]]
+file = "config/sereneseasons/seasons.toml"
+hash = "36bbe527a13fcaa82d2f67a6e899d8f1e95aed01079cda6b4ea90888c9310a15"
+
+[[files]]
 file = "config/sodiumdynamiclights-client.toml"
 hash = "5b36aeb152da44539b205ccf3e87f0edf46079f7be97aa677bf53c2f370d62d9"
 
@@ -2151,6 +2159,11 @@ hash = "b210b54498abff891f524a0ce32b7b81bfc88043604065bd4ece9e71c36427f4"
 metafile = true
 
 [[files]]
+file = "mods/seasonhud.pw.toml"
+hash = "3d1b03ad9f7db451b4f881529acfd1b44a8864b3d2b63a427f62056f9ae19842"
+metafile = true
+
+[[files]]
 file = "mods/seed-delight.pw.toml"
 hash = "18d565f0af979a8874f37eb8394659ecb15200ae441612b3b51921ad2265885e"
 metafile = true
@@ -2158,6 +2171,11 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "655476accdc02a72e26af86da4fbd28ccf5785dde4ca3dcca1ec41120b5011f8"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "eb438b9d4a49c0cc65560cdc295bf927cabc6f34319375a0cfbf3aece662add8"
 metafile = true
 
 [[files]]
