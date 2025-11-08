@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [forgeworks@1.9.0](https://github.com/jaronz/forgeworks/compare/forgeworks@1.8.0...forgeworks@1.9.0) - (2025-11-08)
+
+## 🚀 Features
+
+- Remove terrastorage ([6b9bf93](https://github.com/jaronz/forgeworks/commit/6b9bf93eda6a26e33aa8ed3b53e622eb8969d709)) ([#137](https://github.com/jaronz/forgeworks/pull/137) by @JaronZ)
+- Added Serene Seasons mod ([a2af98b](https://github.com/jaronz/forgeworks/commit/a2af98b5e32cc7f41fe96d23559e5004429a1bdf)) ([#136](https://github.com/jaronz/forgeworks/pull/136) by @JaronZ)
+
 # [forgeworks@1.8.0](https://github.com/jaronz/forgeworks/compare/forgeworks@1.7.0...forgeworks@1.8.0) - (2025-10-11)
 
 ## 🚀 Features
