@@ -2151,6 +2151,11 @@ hash = "b210b54498abff891f524a0ce32b7b81bfc88043604065bd4ece9e71c36427f4"
 metafile = true
 
 [[files]]
+file = "mods/seasonhud.pw.toml"
+hash = "3d1b03ad9f7db451b4f881529acfd1b44a8864b3d2b63a427f62056f9ae19842"
+metafile = true
+
+[[files]]
 file = "mods/seed-delight.pw.toml"
 hash = "18d565f0af979a8874f37eb8394659ecb15200ae441612b3b51921ad2265885e"
 metafile = true
@@ -2158,6 +2163,11 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "655476accdc02a72e26af86da4fbd28ccf5785dde4ca3dcca1ec41120b5011f8"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "eb438b9d4a49c0cc65560cdc295bf927cabc6f34319375a0cfbf3aece662add8"
 metafile = true
 
 [[files]]
