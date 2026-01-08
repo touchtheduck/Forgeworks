@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -uo pipefail
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+case "$1" in
+  "pack")
+    cd "$SCRIPT_DIR/modpack" || exit 1
+    ./pakkuw "${@:2}"
+    ;;
+  "env")
+    cd "$SCRIPT_DIR/modpack" || exit 1
+    ./pakkuw fetch
+    cd "$SCRIPT_DIR/environment" || exit 1
+    ./gradlew "${@:2}"
+    ;;
+  *)
+    echo "Unknown command: $1"
+    echo "Usage: $0 {pack|env} [args...]"
+    exit 1
+    ;;
+esac
