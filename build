@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -uo pipefail
+
+case "$1" in
+  "pack")
+    cd modpack || exit 1
+    ./pakkuw "${@:2}"
+    ;;
+  "env")
+    cd modpack || exit 1
+    ./pakkuw fetch
+    cd ../environment || exit 1
+    ./gradlew "${@:2}"
+    ;;
+esac

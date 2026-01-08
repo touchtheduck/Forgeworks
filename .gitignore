@@ -1,27 +1,21 @@
-# NodeJS
-node_modules/
+# Pakku
+build/
+mods/
 
-# KubeJS files
-.probe/
-kubejs/
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
 
-# Yarn files
-.yarn/install-state.gz
-.yarn/build-state.yml
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
 
-# Turbo
-.turbo/
-
-# Coverage
-coverage/
-
-# TypeScript
-tsconfig.tsbuildinfo
-
-# Eclude precommit hooks config
-.pre-commit-config.yaml
-
-*.jar
-*.log
-/install/
-/environment/
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
