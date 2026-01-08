@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -uo pipefail
+
+if [[ ! -f $(which java) ]]; then
+  echo "Java is not installed. Please install Java to use Pakku." >&2
+  exit 1
+fi
+
+java -jar pakku.jar $@

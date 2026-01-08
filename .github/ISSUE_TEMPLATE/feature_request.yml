@@ -1,20 +1,10 @@
 name: Feature Request
 description: "Submit a request for a feature to be added to the server."
 assignees: ["jaronz"]
-labels: ["type:feature"]
+type: Feature
 title: "[FEAT] "
 
 body:
-  - type: dropdown
-    id: package
-    attributes:
-      label: Which package is this feature request for?
-      options:
-        - forgeworks
-        - minigames
-    validations:
-      required: true
-
   - type: textarea
     attributes:
       label: Feature

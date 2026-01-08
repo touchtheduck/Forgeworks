@@ -1,19 +1,10 @@
 name: Mod Request
 description: Request for a mod to be added to the server or for clients.
-labels: ["type:mod"]
+type: Feature
 assignees: ["jaronz", "liekevk"]
 title: "[MOD] "
 
 body:
-  - type: dropdown
-    id: modpack
-    attributes:
-      label: Which modpack is this mod request for?
-      options:
-        - forgeworks
-    validations:
-      required: true
-
   - type: dropdown
     id: users
     attributes:
