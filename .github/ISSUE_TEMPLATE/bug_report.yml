@@ -1,20 +1,10 @@
 name: Bug Report
 description: "Submit a bug report for the server or one of it's mods."
 assignees: ["jaronz"]
-labels: ["type:bug"]
+type: Bug
 title: "[FIX] "
 
 body:
-  - type: dropdown
-    id: package
-    attributes:
-      label: Which package is this bug report for?
-      options:
-        - forgeworks
-        - minigames
-    validations:
-      required: true
-
   - type: textarea
     attributes:
       label: Bug

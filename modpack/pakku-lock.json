@@ -1,0 +1,10 @@
+{
+    "target": "multiplatform",
+    "mc_versions": [
+        "1.21.1"
+    ],
+    "loaders": {
+        "neoforge": "21.1.217"
+    },
+    "lockfile_version": 1
+}
