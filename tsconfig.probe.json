@@ -1,9 +1,0 @@
-{
-    "extends": "./tsconfig.base.json",
-    "compilerOptions": {
-        "module": "CommonJS",
-        "target": "ES2015",
-        "lib": ["ES5", "ES2015"],
-        "typeRoots": ["typings"]
-    }
-}
