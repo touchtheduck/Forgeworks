@@ -6,5 +6,246 @@
     "loaders": {
         "neoforge": "21.1.217"
     },
+    "projects": [
+        {
+            "pakku_id": "KZyzId9EqqbaMWvK",
+            "pakku_links": [
+                "0BIkR6S8lQRDi35F"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "ae2"
+            },
+            "name": {
+                "modrinth": "Applied Energistics 2"
+            },
+            "id": {
+                "modrinth": "XxWD5pD3"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "appliedenergistics2-19.2.17.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/kfyIqgJ6/appliedenergistics2-19.2.17.jar",
+                    "id": "kfyIqgJ6",
+                    "parent_id": "XxWD5pD3",
+                    "hashes": {
+                        "sha512": "55edfd948366aff620881e0625e48c333a2cb847e73249bc0b588efbc4b86709992a8ffbca97ea387e270df4186fe7f74ee2f27b739f1c952e932becfb9dea33",
+                        "sha1": "49c18d6a4af487957d7e5a6ad5dcbf71090b8e14"
+                    },
+                    "required_dependencies": [
+                        "Ck4E7v7R"
+                    ],
+                    "size": 8230896,
+                    "date_published": "2025-09-23T23:32:37.609648Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "tMH5BPCBxYhJT7tl",
+            "pakku_links": [
+                "hb15zOFxb24CuQj9",
+                "KZyzId9EqqbaMWvK"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "applied-experienced",
+                "modrinth": "applied-experienced"
+            },
+            "name": {
+                "curseforge": "Applied Experienced",
+                "modrinth": "Applied Experienced"
+            },
+            "id": {
+                "curseforge": "1157608",
+                "modrinth": "yKwUnZCV"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "applied-experienced-1.21.1-1.2.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/yKwUnZCV/versions/6BRGJjG9/applied-experienced-1.21.1-1.2.0.jar",
+                    "id": "6BRGJjG9",
+                    "parent_id": "yKwUnZCV",
+                    "hashes": {
+                        "sha512": "c0b8fc4b154e975c40ed8626d023fe39d57406ffcf292c7d8c578161fcdb0df5471dbf86282fc71813db8b09165b5bc0fe3c2b110c519f0a8da94e09f2e1805a",
+                        "sha1": "cec7a8b67a707bca6b705abc1aa0822216984a15"
+                    },
+                    "required_dependencies": [
+                        "SglcIh0L",
+                        "XxWD5pD3"
+                    ],
+                    "size": 203514,
+                    "date_published": "2025-06-05T09:20:10.305221Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "applied-experienced-1.21.1-1.2.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6616/730/applied-experienced-1.21.1-1.2.0.jar",
+                    "id": "6616730",
+                    "parent_id": "1157608",
+                    "hashes": {
+                        "sha1": "cec7a8b67a707bca6b705abc1aa0822216984a15",
+                        "md5": "02f16c10c34d3d000800289b3d96dc29"
+                    },
+                    "required_dependencies": [
+                        "223794",
+                        "1156551"
+                    ],
+                    "size": 203514,
+                    "date_published": "2025-06-05T09:20:07.893Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "hb15zOFxb24CuQj9",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "experiencelib",
+                "modrinth": "experiencelib"
+            },
+            "name": {
+                "curseforge": "ExperienceLib",
+                "modrinth": "ExperienceLib"
+            },
+            "id": {
+                "curseforge": "1156551",
+                "modrinth": "SglcIh0L"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "experiencelib-1.21.1-1.1.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6616/717/experiencelib-1.21.1-1.1.1.jar",
+                    "id": "6616717",
+                    "parent_id": "1156551",
+                    "hashes": {
+                        "sha1": "334df17d784f1e8cb70a09bca6a9865345f9d209",
+                        "md5": "04fe06d278f384e1ba57eb8ef5a03dfb"
+                    },
+                    "required_dependencies": [],
+                    "size": 33813,
+                    "date_published": "2025-06-05T09:17:23.067Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "experiencelib-1.21.1-1.1.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/SglcIh0L/versions/wIFOnKQ4/experiencelib-1.21.1-1.1.1.jar",
+                    "id": "wIFOnKQ4",
+                    "parent_id": "SglcIh0L",
+                    "hashes": {
+                        "sha512": "07d1099209da5f33deaabdaa4593cd07a014d7064d6e9c79e03c27a48816eb77122c166f123b51ba157ea48c47d19c0625c73de851962a7ec188e3be94686357",
+                        "sha1": "334df17d784f1e8cb70a09bca6a9865345f9d209"
+                    },
+                    "required_dependencies": [],
+                    "size": 33813,
+                    "date_published": "2025-06-05T09:17:24.160847Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "0BIkR6S8lQRDi35F",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "guideme",
+                "modrinth": "guideme"
+            },
+            "name": {
+                "curseforge": "GuideME",
+                "modrinth": "GuideME"
+            },
+            "id": {
+                "curseforge": "1173950",
+                "modrinth": "Ck4E7v7R"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "guideme-21.1.15.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7127/444/guideme-21.1.15.jar",
+                    "id": "7127444",
+                    "parent_id": "1173950",
+                    "hashes": {
+                        "sha1": "924c6bca566ee83789a4fd1ce72ea3ddfdf0f5e5",
+                        "md5": "e155422cf43d14722de051272137c294"
+                    },
+                    "required_dependencies": [],
+                    "size": 9309183,
+                    "date_published": "2025-10-19T22:31:21.503Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "guideme-21.1.15.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/ILW6vM7o/guideme-21.1.15.jar",
+                    "id": "ILW6vM7o",
+                    "parent_id": "Ck4E7v7R",
+                    "hashes": {
+                        "sha512": "4a35b2d9ae3958cb9e152757223b0fc0f85ed2c55da2c3bb773b9a353cf5db15e4294ac2b6d897c0d7c82674dd86c084dd2e35fb80b5bcf92067735c03288edc",
+                        "sha1": "924c6bca566ee83789a4fd1ce72ea3ddfdf0f5e5"
+                    },
+                    "required_dependencies": [],
+                    "size": 9309183,
+                    "date_published": "2025-10-19T22:31:24.388133Z"
+                }
+            ]
+        }
+    ],
     "lockfile_version": 1
 }
