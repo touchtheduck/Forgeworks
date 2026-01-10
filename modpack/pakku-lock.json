@@ -6,5 +6,282 @@
     "loaders": {
         "neoforge": "21.1.217"
     },
+    "projects": [
+        {
+            "pakku_id": "bNgJ1cczXyiUDaB5",
+            "pakku_links": [
+                "jmYt2PY29sp5iviG",
+                "0Fl7ek2JNZ4MdACa",
+                "4dLMWXy5OumW9Opb",
+                "b48QzpTKqClWzeWg",
+                "mgqmZCWxCL9NfDW7"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "apotheosis"
+            },
+            "name": {
+                "curseforge": "Apotheosis"
+            },
+            "id": {
+                "curseforge": "313970"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Apotheosis-1.21.1-8.4.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6926/309/Apotheosis-1.21.1-8.4.0.jar",
+                    "id": "6926309",
+                    "parent_id": "313970",
+                    "hashes": {
+                        "sha1": "4f06d9f2da5f6aefcf67a5eb5f14dd989c2238a2",
+                        "md5": "a54c606c2388848eb779156b60d7fe86"
+                    },
+                    "required_dependencies": [
+                        "1063926",
+                        "306770",
+                        "898963",
+                        "986583",
+                        "283644"
+                    ],
+                    "size": 6634923,
+                    "date_published": "2025-08-25T11:07:39.200Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "4dLMWXy5OumW9Opb",
+            "pakku_links": [
+                "mgqmZCWxCL9NfDW7"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "apothic-attributes"
+            },
+            "name": {
+                "curseforge": "Apothic Attributes"
+            },
+            "id": {
+                "curseforge": "898963"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ApothicAttributes-1.21.1-2.9.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6751/650/ApothicAttributes-1.21.1-2.9.0.jar",
+                    "id": "6751650",
+                    "parent_id": "898963",
+                    "hashes": {
+                        "sha1": "eed5808509eb279fd342cafebadd5b95accb4ef8",
+                        "md5": "29023454c5afb47b4031f5073adcbfa3"
+                    },
+                    "required_dependencies": [
+                        "283644"
+                    ],
+                    "size": 311113,
+                    "date_published": "2025-07-10T08:40:20.720Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "jmYt2PY29sp5iviG",
+            "pakku_links": [
+                "4dLMWXy5OumW9Opb",
+                "mgqmZCWxCL9NfDW7"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "apothic-enchanting"
+            },
+            "name": {
+                "curseforge": "Apothic Enchanting"
+            },
+            "id": {
+                "curseforge": "1063926"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ApothicEnchanting-1.21.1-1.5.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6926/290/ApothicEnchanting-1.21.1-1.5.0.jar",
+                    "id": "6926290",
+                    "parent_id": "1063926",
+                    "hashes": {
+                        "sha1": "9ad1e1cbf2ee524d7edca1bcdece6deecf59ddc7",
+                        "md5": "65ee1bcf30396a0fc8874f54dfaf20c2"
+                    },
+                    "required_dependencies": [
+                        "898963",
+                        "283644"
+                    ],
+                    "size": 5354260,
+                    "date_published": "2025-08-25T11:00:06.657Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "b48QzpTKqClWzeWg",
+            "pakku_links": [
+                "mgqmZCWxCL9NfDW7"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "apothic-spawners"
+            },
+            "name": {
+                "curseforge": "Apothic Spawners"
+            },
+            "id": {
+                "curseforge": "986583"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ApothicSpawners-1.21.1-1.3.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6751/589/ApothicSpawners-1.21.1-1.3.2.jar",
+                    "id": "6751589",
+                    "parent_id": "986583",
+                    "hashes": {
+                        "sha1": "c7d5d53202b7195c3680c4a5dacd2c4d1d65f0f1",
+                        "md5": "fd0b04ac1c7968134a9b550a4d30d3d1"
+                    },
+                    "required_dependencies": [
+                        "283644"
+                    ],
+                    "size": 122622,
+                    "date_published": "2025-07-10T08:00:52.857Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "0Fl7ek2JNZ4MdACa",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "patchouli",
+                "modrinth": "patchouli"
+            },
+            "name": {
+                "curseforge": "Patchouli",
+                "modrinth": "Patchouli"
+            },
+            "id": {
+                "curseforge": "306770",
+                "modrinth": "nU0bVIaL"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Patchouli-1.21.1-92-NEOFORGE.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6842/247/Patchouli-1.21.1-92-NEOFORGE.jar",
+                    "id": "6842247",
+                    "parent_id": "306770",
+                    "hashes": {
+                        "sha1": "97ae42096ee4a0a242cd8468dde293017f3cc39c",
+                        "md5": "40ae12e5ea2554ae97ea38e133558e86"
+                    },
+                    "required_dependencies": [],
+                    "size": 646486,
+                    "date_published": "2025-08-03T09:32:33.563Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Patchouli-1.21.1-92-NEOFORGE.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/h6hKI2ob/Patchouli-1.21.1-92-NEOFORGE.jar",
+                    "id": "h6hKI2ob",
+                    "parent_id": "nU0bVIaL",
+                    "hashes": {
+                        "sha512": "36cad2a2e5839fd4ee99165c4f275d1c3c0c71ed130413485e43f8506e7d2c3de2e2dbad40f90262378c6c6c5148140a473b0f7acd806e1a4bfede9c9a04600f",
+                        "sha1": "97ae42096ee4a0a242cd8468dde293017f3cc39c"
+                    },
+                    "required_dependencies": [],
+                    "size": 646486,
+                    "date_published": "2025-08-03T09:32:32.462449Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "mgqmZCWxCL9NfDW7",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "placebo",
+                "modrinth": "placebo"
+            },
+            "name": {
+                "curseforge": "Placebo",
+                "modrinth": "Placebo"
+            },
+            "id": {
+                "curseforge": "283644",
+                "modrinth": "tCkE8p2N"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Placebo-1.21.1-9.9.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6926/281/Placebo-1.21.1-9.9.1.jar",
+                    "id": "6926281",
+                    "parent_id": "283644",
+                    "hashes": {
+                        "sha1": "1c2b8c38066d6f36209c5dadee25c184ef65202e",
+                        "md5": "cc725fc5406d3af893484cfbba06f6ed"
+                    },
+                    "required_dependencies": [],
+                    "size": 324056,
+                    "date_published": "2025-08-25T10:59:44.943Z"
+                }
+            ]
+        }
+    ],
     "lockfile_version": 1
 }
