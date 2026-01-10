@@ -6,5 +6,44 @@
     "loaders": {
         "neoforge": "21.1.217"
     },
+    "projects": [
+        {
+            "pakku_id": "SEDhqrlkXjTC67vI",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ae2-crafting-tree"
+            },
+            "name": {
+                "curseforge": "AE2: Crafting Tree"
+            },
+            "id": {
+                "curseforge": "1086241"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ae2ct-1.21.1-1.1.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6695/418/ae2ct-1.21.1-1.1.0.jar",
+                    "id": "6695418",
+                    "parent_id": "1086241",
+                    "hashes": {
+                        "sha1": "adbb79b1b822dc78c6c3784a6dc5d82daa4cc16f",
+                        "md5": "97d07857648f7d9323b0db6813679083"
+                    },
+                    "required_dependencies": [],
+                    "size": 432450,
+                    "date_published": "2025-06-25T17:51:56.903Z"
+                }
+            ]
+        }
+    ],
     "lockfile_version": 1
 }
