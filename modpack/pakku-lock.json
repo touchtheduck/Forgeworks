@@ -6,5 +6,136 @@
     "loaders": {
         "neoforge": "21.1.217"
     },
+    "projects": [
+        {
+            "pakku_id": "Bwz1m6NQaiS3KqVy",
+            "pakku_links": [
+                "cFaHYaPLXhO489iT"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "actually-additions",
+                "modrinth": "actually-additions"
+            },
+            "name": {
+                "curseforge": "Actually Additions",
+                "modrinth": "Actually Additions"
+            },
+            "id": {
+                "curseforge": "228404",
+                "modrinth": "4K7Q3nqd"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "actuallyadditions-1.3.20+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/4K7Q3nqd/versions/2Wj35cFT/actuallyadditions-1.3.20+mc1.21.1.jar",
+                    "id": "2Wj35cFT",
+                    "parent_id": "4K7Q3nqd",
+                    "hashes": {
+                        "sha512": "c396efca89475bdc38395ff84cbc98d8ef7482e4f7358c46005e942427a69eccc6d6804d2dfceb7dc8d2d0ad3a303a2e5b0d49d56fbfa344c378f794b49dacbe",
+                        "sha1": "3955cece4d2930a40c663669511744f60fff4b19"
+                    },
+                    "required_dependencies": [
+                        "nU0bVIaL"
+                    ],
+                    "size": 3233894,
+                    "date_published": "2025-09-22T22:14:21.185191Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "actuallyadditions-1.3.20+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7023/825/actuallyadditions-1.3.20+mc1.21.1.jar",
+                    "id": "7023825",
+                    "parent_id": "228404",
+                    "hashes": {
+                        "sha1": "3955cece4d2930a40c663669511744f60fff4b19",
+                        "md5": "8029d3486e2811190b247a3a0d79043b"
+                    },
+                    "required_dependencies": [
+                        "306770"
+                    ],
+                    "size": 3233894,
+                    "date_published": "2025-09-22T22:14:17.823Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "cFaHYaPLXhO489iT",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "patchouli",
+                "modrinth": "patchouli"
+            },
+            "name": {
+                "curseforge": "Patchouli",
+                "modrinth": "Patchouli"
+            },
+            "id": {
+                "curseforge": "306770",
+                "modrinth": "nU0bVIaL"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Patchouli-1.21.1-92-NEOFORGE.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6842/247/Patchouli-1.21.1-92-NEOFORGE.jar",
+                    "id": "6842247",
+                    "parent_id": "306770",
+                    "hashes": {
+                        "sha1": "97ae42096ee4a0a242cd8468dde293017f3cc39c",
+                        "md5": "40ae12e5ea2554ae97ea38e133558e86"
+                    },
+                    "required_dependencies": [],
+                    "size": 646486,
+                    "date_published": "2025-08-03T09:32:33.563Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Patchouli-1.21.1-92-NEOFORGE.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/h6hKI2ob/Patchouli-1.21.1-92-NEOFORGE.jar",
+                    "id": "h6hKI2ob",
+                    "parent_id": "nU0bVIaL",
+                    "hashes": {
+                        "sha512": "36cad2a2e5839fd4ee99165c4f275d1c3c0c71ed130413485e43f8506e7d2c3de2e2dbad40f90262378c6c6c5148140a473b0f7acd806e1a4bfede9c9a04600f",
+                        "sha1": "97ae42096ee4a0a242cd8468dde293017f3cc39c"
+                    },
+                    "required_dependencies": [],
+                    "size": 646486,
+                    "date_published": "2025-08-03T09:32:32.462449Z"
+                }
+            ]
+        }
+    ],
     "lockfile_version": 1
 }
