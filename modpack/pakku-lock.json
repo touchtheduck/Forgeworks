@@ -6,5 +6,115 @@
     "loaders": {
         "neoforge": "21.1.217"
     },
+    "projects": [
+        {
+            "pakku_id": "2a5o3DVWI3amfPaf",
+            "pakku_links": [
+                "QxnnhXzQWmAPU6p4"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "amendments",
+                "modrinth": "amendments"
+            },
+            "name": {
+                "curseforge": "Amendments",
+                "modrinth": "Amendments"
+            },
+            "id": {
+                "curseforge": "896746",
+                "modrinth": "6iTJugQR"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "amendments-1.21-2.0.8-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/6iTJugQR/versions/i7GV5VYK/amendments-1.21-2.0.8-neoforge.jar",
+                    "id": "i7GV5VYK",
+                    "parent_id": "6iTJugQR",
+                    "hashes": {
+                        "sha512": "185c6cc49694db792aee0e329831f037e4157f3c5e5e766a15ac534deef0b78467d31c2e71c060a7c0d922acd2a2402c1b1ba33e5f7fe8ad9d0fccb0c6f7dc1e",
+                        "sha1": "6c9b796159f7add8367e3d4a8238dd526408bd49"
+                    },
+                    "required_dependencies": [
+                        "twkfQtEc"
+                    ],
+                    "size": 1136831,
+                    "date_published": "2025-10-01T16:57:25.120765Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "amendments-1.21-2.0.8-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7054/319/amendments-1.21-2.0.8-neoforge.jar",
+                    "id": "7054319",
+                    "parent_id": "896746",
+                    "hashes": {
+                        "sha1": "6c9b796159f7add8367e3d4a8238dd526408bd49",
+                        "md5": "59d66191d354fa3ad3f1186c0b8aa771"
+                    },
+                    "required_dependencies": [
+                        "499980"
+                    ],
+                    "size": 1136831,
+                    "date_published": "2025-10-01T16:57:20.017Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "QxnnhXzQWmAPU6p4",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "moonlight"
+            },
+            "name": {
+                "modrinth": "Moonlight Lib"
+            },
+            "id": {
+                "modrinth": "twkfQtEc"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "moonlight-1.21-2.29.9-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/j4AQIoAo/moonlight-1.21-2.29.9-neoforge.jar",
+                    "id": "j4AQIoAo",
+                    "parent_id": "twkfQtEc",
+                    "hashes": {
+                        "sha512": "e3a9c529f8a3370c5fedeac7684a68793e0ac498e8ca5a1fd62a6278ff10c62e3e629855d2ffce8e74a05845b393567968644ea9b449458f8732cb9fd1b6f4b9",
+                        "sha1": "b0c829d141d12f340c27a6fd0f25ab0a321932e6"
+                    },
+                    "required_dependencies": [],
+                    "size": 1548201,
+                    "date_published": "2026-01-10T11:11:00.469224Z"
+                }
+            ]
+        }
+    ],
     "lockfile_version": 1
 }
