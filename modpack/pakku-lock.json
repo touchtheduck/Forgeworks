@@ -6,5 +6,215 @@
     "loaders": {
         "neoforge": "21.1.217"
     },
+    "projects": [
+        {
+            "pakku_id": "TJvrlz3IOkHeCWTt",
+            "pakku_links": [
+                "HEsaXBC7Tgj9JRnP"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "applied-energistics-2"
+            },
+            "name": {
+                "curseforge": "Applied Energistics 2"
+            },
+            "id": {
+                "curseforge": "223794"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "appliedenergistics2-19.2.17.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7027/323/appliedenergistics2-19.2.17.jar",
+                    "id": "7027323",
+                    "parent_id": "223794",
+                    "hashes": {
+                        "sha1": "49c18d6a4af487957d7e5a6ad5dcbf71090b8e14",
+                        "md5": "1d9768edc90fb50f065949f2628ea991"
+                    },
+                    "required_dependencies": [
+                        "1173950"
+                    ],
+                    "size": 8230896,
+                    "date_published": "2025-09-23T23:32:36.190Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "4zEwDbsz3D3f9ZZB",
+            "pakku_links": [
+                "TJvrlz3IOkHeCWTt",
+                "ThiLedNUDhMzLBzw",
+                "HEsaXBC7Tgj9JRnP"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "applied-flux"
+            },
+            "name": {
+                "curseforge": "Applied Flux"
+            },
+            "id": {
+                "curseforge": "965012"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "AppliedFlux-1.21-2.1.3-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6649/565/AppliedFlux-1.21-2.1.3-neoforge.jar",
+                    "id": "6649565",
+                    "parent_id": "965012",
+                    "hashes": {
+                        "sha1": "dbe2d41e0918038f14f3ab710f45f45b97dd066d",
+                        "md5": "0c3fe52b80bdabe43bd49930af715183"
+                    },
+                    "required_dependencies": [
+                        "223794",
+                        "957920",
+                        "1173950"
+                    ],
+                    "size": 336691,
+                    "date_published": "2025-06-14T05:14:28.363Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ThiLedNUDhMzLBzw",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "glodium",
+                "modrinth": "glodium"
+            },
+            "name": {
+                "curseforge": "Glodium",
+                "modrinth": "Glodium"
+            },
+            "id": {
+                "curseforge": "957920",
+                "modrinth": "UhW5uCKw"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Glodium-1.21-2.2-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5821/676/Glodium-1.21-2.2-neoforge.jar",
+                    "id": "5821676",
+                    "parent_id": "957920",
+                    "hashes": {
+                        "sha1": "9f61a3162665ad0b37f6f268339ac98097af1a87",
+                        "md5": "726c1598b933b33a413fd994e12fd31c"
+                    },
+                    "required_dependencies": [],
+                    "size": 61377,
+                    "date_published": "2024-10-18T12:40:20.117Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Glodium-1.21-2.2-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/UhW5uCKw/versions/pfbmdJ3b/Glodium-1.21-2.2-neoforge.jar",
+                    "id": "pfbmdJ3b",
+                    "parent_id": "UhW5uCKw",
+                    "hashes": {
+                        "sha512": "56a387a1bdaf0146c9a7e14de0aca8b6f53f25d3ba9d46255f142043387282ed9e4fa0011d309e32d9ffe5362b129c07e301226dd4ac11eda9a4f42f27c0b5d1",
+                        "sha1": "9f61a3162665ad0b37f6f268339ac98097af1a87"
+                    },
+                    "required_dependencies": [],
+                    "size": 61377,
+                    "date_published": "2025-02-04T13:09:39.978003Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "HEsaXBC7Tgj9JRnP",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "guideme",
+                "modrinth": "guideme"
+            },
+            "name": {
+                "curseforge": "GuideME",
+                "modrinth": "GuideME"
+            },
+            "id": {
+                "curseforge": "1173950",
+                "modrinth": "Ck4E7v7R"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "guideme-21.1.15.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7127/444/guideme-21.1.15.jar",
+                    "id": "7127444",
+                    "parent_id": "1173950",
+                    "hashes": {
+                        "sha1": "924c6bca566ee83789a4fd1ce72ea3ddfdf0f5e5",
+                        "md5": "e155422cf43d14722de051272137c294"
+                    },
+                    "required_dependencies": [],
+                    "size": 9309183,
+                    "date_published": "2025-10-19T22:31:21.503Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "guideme-21.1.15.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/ILW6vM7o/guideme-21.1.15.jar",
+                    "id": "ILW6vM7o",
+                    "parent_id": "Ck4E7v7R",
+                    "hashes": {
+                        "sha512": "4a35b2d9ae3958cb9e152757223b0fc0f85ed2c55da2c3bb773b9a353cf5db15e4294ac2b6d897c0d7c82674dd86c084dd2e35fb80b5bcf92067735c03288edc",
+                        "sha1": "924c6bca566ee83789a4fd1ce72ea3ddfdf0f5e5"
+                    },
+                    "required_dependencies": [],
+                    "size": 9309183,
+                    "date_published": "2025-10-19T22:31:24.388133Z"
+                }
+            ]
+        }
+    ],
     "lockfile_version": 1
 }
