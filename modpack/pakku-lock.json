@@ -6,5 +6,178 @@
     "loaders": {
         "neoforge": "21.1.217"
     },
+    "projects": [
+        {
+            "pakku_id": "UfBPX3CSWiNfcxo0",
+            "pakku_links": [
+                "Ch1xAazq0rcHJBfH"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "applied-energistics-2"
+            },
+            "name": {
+                "curseforge": "Applied Energistics 2"
+            },
+            "id": {
+                "curseforge": "223794"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "appliedenergistics2-19.2.17.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7027/323/appliedenergistics2-19.2.17.jar",
+                    "id": "7027323",
+                    "parent_id": "223794",
+                    "hashes": {
+                        "sha1": "49c18d6a4af487957d7e5a6ad5dcbf71090b8e14",
+                        "md5": "1d9768edc90fb50f065949f2628ea991"
+                    },
+                    "required_dependencies": [
+                        "1173950"
+                    ],
+                    "size": 8230896,
+                    "date_published": "2025-09-23T23:32:36.190Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "tM1iUHAfxNbBfgbt",
+            "pakku_links": [
+                "lRH7zbD3AOvaRFgf",
+                "UfBPX3CSWiNfcxo0"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "applied-energistics-2-wireless-terminals",
+                "modrinth": "applied-energistics-2-wireless-terminals"
+            },
+            "name": {
+                "curseforge": "Applied Energistics 2 Wireless Terminals",
+                "modrinth": "Applied Energistics 2 Wireless Terminals"
+            },
+            "id": {
+                "curseforge": "459929",
+                "modrinth": "pNabrMMw"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ae2wtlib-19.2.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/pNabrMMw/versions/IQFaf9vp/ae2wtlib-19.2.6.jar",
+                    "id": "IQFaf9vp",
+                    "parent_id": "pNabrMMw",
+                    "hashes": {
+                        "sha512": "d3b2a5039049826de6d41f737d2ccd630f32d2c3297d8ce1525a5d50a1d77c2faaaea96442660522c8c60e3758648d48c6f437783f8f91f484e3815b12f694ca",
+                        "sha1": "282826608a79d4b1c29972919e7643f63e66e0c1"
+                    },
+                    "required_dependencies": [
+                        "XxWD5pD3"
+                    ],
+                    "size": 240340,
+                    "date_published": "2025-08-28T21:42:48.707936Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "ae2wtlib-19.2.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6939/30/ae2wtlib-19.2.6.jar",
+                    "id": "6939030",
+                    "parent_id": "459929",
+                    "hashes": {
+                        "sha1": "282826608a79d4b1c29972919e7643f63e66e0c1",
+                        "md5": "10588fa9ccb846219ddea224019cfdd8"
+                    },
+                    "required_dependencies": [
+                        "223794"
+                    ],
+                    "size": 240340,
+                    "date_published": "2025-08-28T21:42:46.113Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Ch1xAazq0rcHJBfH",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "guideme",
+                "modrinth": "guideme"
+            },
+            "name": {
+                "curseforge": "GuideME",
+                "modrinth": "GuideME"
+            },
+            "id": {
+                "curseforge": "1173950",
+                "modrinth": "Ck4E7v7R"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "guideme-21.1.15.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7127/444/guideme-21.1.15.jar",
+                    "id": "7127444",
+                    "parent_id": "1173950",
+                    "hashes": {
+                        "sha1": "924c6bca566ee83789a4fd1ce72ea3ddfdf0f5e5",
+                        "md5": "e155422cf43d14722de051272137c294"
+                    },
+                    "required_dependencies": [],
+                    "size": 9309183,
+                    "date_published": "2025-10-19T22:31:21.503Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "guideme-21.1.15.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/ILW6vM7o/guideme-21.1.15.jar",
+                    "id": "ILW6vM7o",
+                    "parent_id": "Ck4E7v7R",
+                    "hashes": {
+                        "sha512": "4a35b2d9ae3958cb9e152757223b0fc0f85ed2c55da2c3bb773b9a353cf5db15e4294ac2b6d897c0d7c82674dd86c084dd2e35fb80b5bcf92067735c03288edc",
+                        "sha1": "924c6bca566ee83789a4fd1ce72ea3ddfdf0f5e5"
+                    },
+                    "required_dependencies": [],
+                    "size": 9309183,
+                    "date_published": "2025-10-19T22:31:24.388133Z"
+                }
+            ]
+        }
+    ],
     "lockfile_version": 1
 }
