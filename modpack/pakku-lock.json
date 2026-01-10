@@ -6,5 +6,412 @@
     "loaders": {
         "neoforge": "21.1.217"
     },
+    "projects": [
+        {
+            "pakku_id": "beE9kh1bgcOtRLQo",
+            "pakku_links": [
+                "qLxQy0VODJg1Orhd"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "all-the-wood-weve-got",
+                "modrinth": "all-the-wood-weve-got"
+            },
+            "name": {
+                "curseforge": "All The Wood We've Got",
+                "modrinth": "All The Wood We've Got"
+            },
+            "id": {
+                "curseforge": "1138171",
+                "modrinth": "qvq8iHWh"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "All-The-Wood-Weve-Got-NeoForge-2.2.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/qvq8iHWh/versions/remQLUL1/All-The-Wood-Weve-Got-NeoForge-2.2.3.jar",
+                    "id": "remQLUL1",
+                    "parent_id": "qvq8iHWh",
+                    "hashes": {
+                        "sha512": "5ef86c265adb9df01ff6ea9f65a1456038c3e0c843e427115dfd0bc5480cdacc5e81f1395744b3ac56a56c5dbace3d8fda132a00715ec7ac7dec01d8fce7c904",
+                        "sha1": "bf9fc07fdd0a73e79435a4012882a6805e567972"
+                    },
+                    "required_dependencies": [
+                        "NTi7d3Xc"
+                    ],
+                    "size": 749440,
+                    "date_published": "2025-09-12T17:06:21.227698Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "All-The-Wood-Weve-Got-NeoForge-2.2.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6989/900/All-The-Wood-Weve-Got-NeoForge-2.2.3.jar",
+                    "id": "6989900",
+                    "parent_id": "1138171",
+                    "hashes": {
+                        "sha1": "bf9fc07fdd0a73e79435a4012882a6805e567972",
+                        "md5": "371968ad501144fd2434d2c400e7bd67"
+                    },
+                    "required_dependencies": [
+                        "1070751"
+                    ],
+                    "size": 749440,
+                    "date_published": "2025-09-12T17:06:17.647Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "s3F5WOuXOIKpjtVU",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "corgilib",
+                "modrinth": "corgilib"
+            },
+            "name": {
+                "curseforge": "CorgiLib",
+                "modrinth": "CorgiLib"
+            },
+            "id": {
+                "curseforge": "693313",
+                "modrinth": "ziOp6EO8"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Corgilib-NeoForge-1.21.1-5.0.0.7.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6808/264/Corgilib-NeoForge-1.21.1-5.0.0.7.jar",
+                    "id": "6808264",
+                    "parent_id": "693313",
+                    "hashes": {
+                        "sha1": "a84b16272a6cd1b3fec0ff0e2ffdd05cf92dc02a",
+                        "md5": "939fc51820a34f347149b8c726cf78b7"
+                    },
+                    "required_dependencies": [],
+                    "size": 310185,
+                    "date_published": "2025-07-24T21:44:50.733Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Corgilib-NeoForge-1.21.1-5.0.0.7.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ziOp6EO8/versions/nQqU8c1K/Corgilib-NeoForge-1.21.1-5.0.0.7.jar",
+                    "id": "nQqU8c1K",
+                    "parent_id": "ziOp6EO8",
+                    "hashes": {
+                        "sha512": "f614e06f2871cdaddd6eb526ee831a661e2818243e310f3087ca89ab989c25a6140d4b4305fd5537a80960c00047d7b3e86bf177dd7605ff8e963f0f644e7fc0",
+                        "sha1": "a84b16272a6cd1b3fec0ff0e2ffdd05cf92dc02a"
+                    },
+                    "required_dependencies": [],
+                    "size": 310185,
+                    "date_published": "2025-07-24T21:44:54.291589Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "0ipUEQ5Glzph2atJ",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "geckolib",
+                "modrinth": "geckolib"
+            },
+            "name": {
+                "curseforge": "GeckoLib",
+                "modrinth": "Geckolib"
+            },
+            "id": {
+                "curseforge": "388172",
+                "modrinth": "8BmcQJ2H"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "geckolib-neoforge-1.21.1-4.8.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7415/496/geckolib-neoforge-1.21.1-4.8.3.jar",
+                    "id": "7415496",
+                    "parent_id": "388172",
+                    "hashes": {
+                        "sha1": "fb0ac6ad63dc5f401c15c66a037c08e9709d1c42",
+                        "md5": "097799f159db31dd123eb47e31eacb01"
+                    },
+                    "required_dependencies": [],
+                    "size": 622121,
+                    "date_published": "2026-01-04T07:23:36.377Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "geckolib-neoforge-1.21.1-4.8.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/lWsXauBN/geckolib-neoforge-1.21.1-4.8.3.jar",
+                    "id": "lWsXauBN",
+                    "parent_id": "8BmcQJ2H",
+                    "hashes": {
+                        "sha512": "4b8f3bcdc04450aa97af136353341f136921259f16f2363f3cfe77956860455f27c38f9701b3f0e8a78ea86067411ecd35d391803b753276934057481e770556",
+                        "sha1": "fb0ac6ad63dc5f401c15c66a037c08e9709d1c42"
+                    },
+                    "required_dependencies": [],
+                    "size": 622121,
+                    "date_published": "2026-01-04T07:23:41.319169Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "qLxQy0VODJg1Orhd",
+            "pakku_links": [
+                "s3F5WOuXOIKpjtVU",
+                "z5FoCyd89mtq7rSz",
+                "0ipUEQ5Glzph2atJ",
+                "M4HTuzfdTMjtkQGY",
+                "nqUcKOZoLUKNvO9J"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "oh-the-biomes-weve-gone",
+                "modrinth": "oh-the-biomes-weve-gone"
+            },
+            "name": {
+                "curseforge": "Oh The Biomes We've Gone",
+                "modrinth": "Oh The Biomes We've Gone"
+            },
+            "id": {
+                "curseforge": "1070751",
+                "modrinth": "NTi7d3Xc"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Oh-The-Biomes-Weve-Gone-NeoForge-2.5.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7386/735/Oh-The-Biomes-Weve-Gone-NeoForge-2.5.4.jar",
+                    "id": "7386735",
+                    "parent_id": "1070751",
+                    "hashes": {
+                        "sha1": "b8b2aa46b3987a6ee2f7f34593fd243e647d8c9e",
+                        "md5": "ba82d799e646cd49232f3f5dd73a668d"
+                    },
+                    "required_dependencies": [
+                        "693313",
+                        "940057",
+                        "388172",
+                        "962544"
+                    ],
+                    "size": 20743236,
+                    "date_published": "2025-12-28T02:18:44.510Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Oh-The-Biomes-Weve-Gone-NeoForge-2.5.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/NTi7d3Xc/versions/JXws7ZiS/Oh-The-Biomes-Weve-Gone-NeoForge-2.5.4.jar",
+                    "id": "JXws7ZiS",
+                    "parent_id": "NTi7d3Xc",
+                    "hashes": {
+                        "sha512": "6ad3fb5bee6b6701e465baa5c1db2cfbc80fca9e0e8c08d7c48b8d911c68479c0b33399f8a960565060ae6c94d82750d28daf66de7269f3fa096f014554aef8b",
+                        "sha1": "b8b2aa46b3987a6ee2f7f34593fd243e647d8c9e"
+                    },
+                    "required_dependencies": [
+                        "g8NOG5OR",
+                        "kkmrDlKT",
+                        "8BmcQJ2H",
+                        "ziOp6EO8"
+                    ],
+                    "size": 20743236,
+                    "date_published": "2025-12-28T02:18:53.880785Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "M4HTuzfdTMjtkQGY",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "oh-the-trees-youll-grow",
+                "modrinth": "oh-the-trees-youll-grow"
+            },
+            "name": {
+                "curseforge": "Oh The Trees You'll Grow",
+                "modrinth": "Oh The Trees You'll Grow"
+            },
+            "id": {
+                "curseforge": "962544",
+                "modrinth": "g8NOG5OR"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.1.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7096/302/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.1.2.jar",
+                    "id": "7096302",
+                    "parent_id": "962544",
+                    "hashes": {
+                        "sha1": "32e7cd9e32ac0e4007754b79f5b08f9754c81fda",
+                        "md5": "e8dfc69d606f4784e1f1a02e6f7e0876"
+                    },
+                    "required_dependencies": [],
+                    "size": 136561,
+                    "date_published": "2025-10-11T21:10:38.067Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.1.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/g8NOG5OR/versions/44blpeJ7/Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.1.2.jar",
+                    "id": "44blpeJ7",
+                    "parent_id": "g8NOG5OR",
+                    "hashes": {
+                        "sha512": "71c76e8354afd8ba1474e98ba2262a8f71d102d6674e5cc5d841ea318edabf281b5f798d87d931bff3d0fa1adc0ac4443d46faa87625ac48e54d12625c3f1eaf",
+                        "sha1": "32e7cd9e32ac0e4007754b79f5b08f9754c81fda"
+                    },
+                    "required_dependencies": [],
+                    "size": 136561,
+                    "date_published": "2025-10-11T21:10:41.270469Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "nqUcKOZoLUKNvO9J",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "terrablender",
+                "modrinth": "terrablender"
+            },
+            "name": {
+                "curseforge": "TerraBlender (Forge)",
+                "modrinth": "TerraBlender"
+            },
+            "id": {
+                "curseforge": "563928",
+                "modrinth": "kkmrDlKT"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/kkmrDlKT/versions/6e8GCrLb/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+                    "id": "6e8GCrLb",
+                    "parent_id": "kkmrDlKT",
+                    "hashes": {
+                        "sha512": "9d4b2a1be5139c0fb2fad92ed21805b17d9e83b6ea48e637e018bb14063c1823a206390755dbfe8d025c20fd62ac11cdd84db53ddb956dabaeda01bff57bac50",
+                        "sha1": "744394d979b422be560babf9df7a6800ede9ac5b"
+                    },
+                    "required_dependencies": [],
+                    "size": 120365,
+                    "date_published": "2025-01-05T04:27:50.603937Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "z5FoCyd89mtq7rSz",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "terrablender-neoforge"
+            },
+            "name": {
+                "curseforge": "TerraBlender (NeoForge)"
+            },
+            "id": {
+                "curseforge": "940057"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6054/947/TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+                    "id": "6054947",
+                    "parent_id": "940057",
+                    "hashes": {
+                        "sha1": "2016eed89eac0eb0510d2190c3b0b80bf4346191",
+                        "md5": "9510cef4ca24d7f6bc3144dbf6693f7d"
+                    },
+                    "required_dependencies": [],
+                    "size": 120364,
+                    "date_published": "2025-01-05T04:27:14.547Z"
+                }
+            ]
+        }
+    ],
     "lockfile_version": 1
 }
