@@ -6,5 +6,84 @@
     "loaders": {
         "neoforge": "21.1.217"
     },
+    "projects": [
+        {
+            "pakku_id": "awzI0XVFfrva0P3f",
+            "pakku_links": [
+                "rqZkYQ0NGAD3WQYp"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "actually-additions"
+            },
+            "name": {
+                "curseforge": "Actually Additions"
+            },
+            "id": {
+                "curseforge": "228404"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "actuallyadditions-1.3.24+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7417/441/actuallyadditions-1.3.24+mc1.21.1.jar",
+                    "id": "7417441",
+                    "parent_id": "228404",
+                    "hashes": {
+                        "sha1": "9105b15877de8b8f54b129e1a2d1bb116d5985c2",
+                        "md5": "ad114dbff918b35213169ca816bc64c6"
+                    },
+                    "required_dependencies": [
+                        "306770"
+                    ],
+                    "size": 3215645,
+                    "date_published": "2026-01-04T17:15:46.683Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "rqZkYQ0NGAD3WQYp",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "patchouli"
+            },
+            "name": {
+                "curseforge": "Patchouli"
+            },
+            "id": {
+                "curseforge": "306770"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Patchouli-1.21.1-92-NEOFORGE.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6842/247/Patchouli-1.21.1-92-NEOFORGE.jar",
+                    "id": "6842247",
+                    "parent_id": "306770",
+                    "hashes": {
+                        "sha1": "97ae42096ee4a0a242cd8468dde293017f3cc39c",
+                        "md5": "40ae12e5ea2554ae97ea38e133558e86"
+                    },
+                    "required_dependencies": [],
+                    "size": 646486,
+                    "date_published": "2025-08-03T09:32:33.563Z"
+                }
+            ]
+        }
+    ],
     "lockfile_version": 1
 }
