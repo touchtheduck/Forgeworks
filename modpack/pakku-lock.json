@@ -6,5 +6,86 @@
     "loaders": {
         "neoforge": "21.1.217"
     },
+    "projects": [
+        {
+            "pakku_id": "3WH0mYG2rVrrKWme",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "almanac-lib",
+                "modrinth": "almanac"
+            },
+            "name": {
+                "curseforge": "Almanac Lib",
+                "modrinth": "Almanac"
+            },
+            "id": {
+                "curseforge": "1115285",
+                "modrinth": "Gi02250Z"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "almanac-1.21.x-neoforge-1.0.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1-rc1",
+                        "1.21.1",
+                        "24w33a",
+                        "24w34a",
+                        "24w35a",
+                        "24w36a",
+                        "24w37a",
+                        "24w38a",
+                        "24w39a",
+                        "24w40a",
+                        "1.21.2-pre1",
+                        "1.21.2",
+                        "1.21.3"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/Gi02250Z/versions/1FKrJXAN/almanac-1.21.x-neoforge-1.0.2.jar",
+                    "id": "1FKrJXAN",
+                    "parent_id": "Gi02250Z",
+                    "hashes": {
+                        "sha512": "78b59cb732cfc13bae2e7b19cff44adee1eebd68c0546f77318d67f90fa77b753787a92957fe30851e7cc79377f1d9d79ebbfa1b49d967d4577b5a6aa9792c85",
+                        "sha1": "e692eae59cc35755defa1ba780eba65fb2843cbb"
+                    },
+                    "required_dependencies": [],
+                    "size": 16024,
+                    "date_published": "2024-10-11T18:16:26.599591Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "almanac-1.21.x-neoforge-1.0.2.jar",
+                    "mc_versions": [
+                        "1.21.2-Snapshot",
+                        "1.21",
+                        "1.21.1-Snapshot",
+                        "1.21.3",
+                        "1.21.1",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5803/531/almanac-1.21.x-neoforge-1.0.2.jar",
+                    "id": "5803531",
+                    "parent_id": "1115285",
+                    "hashes": {
+                        "sha1": "e692eae59cc35755defa1ba780eba65fb2843cbb",
+                        "md5": "2e9f01793f312e424caff5b037f9b4f8"
+                    },
+                    "required_dependencies": [],
+                    "size": 16024,
+                    "date_published": "2024-10-11T18:11:09.183Z"
+                }
+            ]
+        }
+    ],
     "lockfile_version": 1
 }
