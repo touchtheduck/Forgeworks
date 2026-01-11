@@ -1,0 +1,24 @@
+{
+	"type": "immersiveengineering:sawmill",
+	"energy": 800,
+	"input": [
+		{
+			"item": "deeperdarker:stripped_echo_log"
+		},
+		{
+			"item": "deeperdarker:stripped_echo_wood"
+		}
+	],
+	"result": {
+		"basePredicate": {
+			"item": "deeperdarker:echo_planks"
+		},
+		"count": 6
+	},
+	"secondaryOutputs": [
+		{
+			"tag": "c:dusts/wood"
+		}
+	],
+	"strippingSecondaries": []
+}

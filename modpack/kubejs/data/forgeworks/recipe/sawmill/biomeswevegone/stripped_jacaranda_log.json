@@ -1,0 +1,24 @@
+{
+	"type": "immersiveengineering:sawmill",
+	"energy": 800,
+	"input": [
+		{
+			"item": "biomeswevegone:stripped_jacaranda_log"
+		},
+		{
+			"item": "biomeswevegone:stripped_jacaranda_wood"
+		}
+	],
+	"result": {
+		"basePredicate": {
+			"item": "biomeswevegone:jacaranda_planks"
+		},
+		"count": 6
+	},
+	"secondaryOutputs": [
+		{
+			"tag": "c:dusts/wood"
+		}
+	],
+	"strippingSecondaries": []
+}

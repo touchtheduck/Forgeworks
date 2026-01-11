@@ -1,0 +1,24 @@
+{
+	"type": "immersiveengineering:sawmill",
+	"energy": 800,
+	"input": [
+		{
+			"item": "biomeswevegone:stripped_white_mangrove_log"
+		},
+		{
+			"item": "biomeswevegone:stripped_white_mangrove_wood"
+		}
+	],
+	"result": {
+		"basePredicate": {
+			"item": "biomeswevegone:white_mangrove_planks"
+		},
+		"count": 6
+	},
+	"secondaryOutputs": [
+		{
+			"tag": "c:dusts/wood"
+		}
+	],
+	"strippingSecondaries": []
+}

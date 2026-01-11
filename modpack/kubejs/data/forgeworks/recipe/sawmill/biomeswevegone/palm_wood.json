@@ -1,0 +1,26 @@
+{
+	"type": "immersiveengineering:sawmill",
+	"energy": 1600,
+	"input": {
+		"item": "biomeswevegone:palm_wood"
+	},
+	"result": {
+		"basePredicate": {
+			"item": "biomeswevegone:palm_planks"
+		},
+		"count": 6
+	},
+	"secondaryOutputs": [
+		{
+			"tag": "c:dusts/wood"
+		}
+	],
+	"stripped": {
+		"item": "biomeswevegone:stripped_palm_wood"
+	},
+	"strippingSecondaries": [
+		{
+			"tag": "c:dusts/wood"
+		}
+	]
+}

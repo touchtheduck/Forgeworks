@@ -1,0 +1,24 @@
+{
+	"type": "immersiveengineering:sawmill",
+	"energy": 800,
+	"input": [
+		{
+			"item": "biomeswevegone:stripped_zelkova_log"
+		},
+		{
+			"item": "biomeswevegone:stripped_zelkova_wood"
+		}
+	],
+	"result": {
+		"basePredicate": {
+			"item": "biomeswevegone:zelkova_planks"
+		},
+		"count": 6
+	},
+	"secondaryOutputs": [
+		{
+			"tag": "c:dusts/wood"
+		}
+	],
+	"strippingSecondaries": []
+}
