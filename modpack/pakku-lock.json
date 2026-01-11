@@ -15,7 +15,7 @@
                 "4cRjoQwZktp1Im3D"
             ],
             "type": "MOD",
-			"side": "BOTH",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "ae2-jei-integration"
             },
@@ -55,12 +55,12 @@
         {
             "pakku_id": "mDivtxTf6j2TwBz3",
             "type": "MOD",
-			"side": "BOTH",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "ae2-crafting-tree"
             },
             "name": {
-				"curseforge": "AE2: Crafting Tree"
+                "curseforge": "AE2: Crafting Tree"
             },
             "id": {
                 "curseforge": "1086241"
@@ -2507,7 +2507,7 @@
         {
             "pakku_id": "3pLsqJJ9FNigSvLw",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "athena",
                 "modrinth": "athena-ctm"
@@ -4162,6 +4162,136 @@
             ]
         },
         {
+            "pakku_id": "be6SPnZCF5KXOInn",
+            "type": "SHADER",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "complementary-unbound",
+                "modrinth": "complementary-unbound"
+            },
+            "name": {
+                "curseforge": "Complementary Shaders - Unbound",
+                "modrinth": "Complementary Shaders - Unbound"
+            },
+            "id": {
+                "curseforge": "385587",
+                "modrinth": "R6NEzAwj"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ComplementaryUnbound_r5.6.1.zip",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.8",
+                        "1.21.5",
+                        "1.21.4",
+                        "1.21.1",
+                        "1.21.6",
+                        "1.21.3",
+                        "1.21.7",
+                        "1.21.2",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7090/228/ComplementaryUnbound_r5.6.1.zip",
+                    "id": "7090228",
+                    "parent_id": "385587",
+                    "hashes": {
+                        "sha1": "db9d5d3fab53bb896e1d727661540ecf570059a9",
+                        "md5": "3f83f81df2ad4608d830017425b45bac"
+                    },
+                    "required_dependencies": [],
+                    "size": 500699,
+                    "date_published": "2025-10-10T11:43:59.370Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "ComplementaryUnbound_r5.6.1.zip",
+                    "mc_versions": [
+                        "1.8.9",
+                        "1.9",
+                        "1.9.1",
+                        "1.9.2",
+                        "1.9.3",
+                        "1.9.4",
+                        "1.10",
+                        "1.10.1",
+                        "1.10.2",
+                        "1.11",
+                        "1.11.1",
+                        "1.11.2",
+                        "1.12",
+                        "1.12.1",
+                        "1.12.2",
+                        "1.13",
+                        "1.13.1",
+                        "1.13.2",
+                        "1.14",
+                        "1.14.1",
+                        "1.14.2",
+                        "1.14.3",
+                        "1.14.4",
+                        "1.15",
+                        "1.15.1",
+                        "1.15.2",
+                        "1.16",
+                        "1.16.1",
+                        "1.16.2",
+                        "1.16.3",
+                        "1.16.4",
+                        "1.16.5",
+                        "1.17",
+                        "1.17.1",
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "iris",
+                        "optifine"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/LXrX6oqm/ComplementaryUnbound_r5.6.1.zip",
+                    "id": "LXrX6oqm",
+                    "parent_id": "R6NEzAwj",
+                    "hashes": {
+                        "sha512": "3c46b335faf0dde03666571d23bdc3aa04cdd30fa9ea3fd01214203a7a80bbf52ffa648b44d9c06c62308c234138da48a69ac381196de0683c57ec452ff68f41",
+                        "sha1": "db9d5d3fab53bb896e1d727661540ecf570059a9"
+                    },
+                    "required_dependencies": [],
+                    "size": 500699,
+                    "date_published": "2025-10-10T11:37:04.452167Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "OlzIlxgrD7XZjW6d",
             "type": "MOD",
             "side": "SERVER",
@@ -4993,6 +5123,76 @@
                     ],
                     "size": 583365,
                     "date_published": "2025-10-09T01:17:14.449782Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "vPiUs1UXAN5m5Qhq",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "crash-assistant",
+                "modrinth": "crash-assistant"
+            },
+            "name": {
+                "curseforge": "Crash Assistant",
+                "modrinth": "Crash Assistant"
+            },
+            "id": {
+                "curseforge": "1154099",
+                "modrinth": "ix1qq8Ux"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.28.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.4",
+                        "1.21.1",
+                        "1.21.3",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7374/773/CrashAssistant-neoforge-1.20.6-1.21.4-1.10.28.jar",
+                    "id": "7374773",
+                    "parent_id": "1154099",
+                    "hashes": {
+                        "sha1": "8bb5bea9835d9c993648aee9c1c60510c3ad1b04",
+                        "md5": "16aa4cbeadfe64a08b91b76ab0f07e8a"
+                    },
+                    "required_dependencies": [],
+                    "size": 1230854,
+                    "date_published": "2025-12-25T00:08:35.787Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.28.jar",
+                    "mc_versions": [
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ix1qq8Ux/versions/dQRtGn7v/CrashAssistant-neoforge-1.20.6-1.21.4-1.10.28.jar",
+                    "id": "dQRtGn7v",
+                    "parent_id": "ix1qq8Ux",
+                    "hashes": {
+                        "sha512": "3df1d2bcff51ba1100abec02bded06e3b1118ef2e5e7326cef475c7405ac43f3e90f7028b4cb3528936968a8c261322fd51ed4490fcf5ab93a842b2fc6824d3d",
+                        "sha1": "8bb5bea9835d9c993648aee9c1c60510c3ad1b04"
+                    },
+                    "required_dependencies": [],
+                    "size": 1230854,
+                    "date_published": "2025-12-25T00:08:39.759588Z"
                 }
             ]
         },
@@ -12545,7 +12745,7 @@
         {
             "pakku_id": "uDdl2LIwKS9wBMP6",
             "type": "MOD",
-            "side": "CLIENT",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "geckolib",
                 "modrinth": "geckolib"
