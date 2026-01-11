@@ -1,0 +1,24 @@
+{
+	"type": "immersiveengineering:sawmill",
+	"energy": 800,
+	"input": [
+		{
+			"item": "biomeswevegone:stripped_blue_enchanted_log"
+		},
+		{
+			"item": "biomeswevegone:stripped_blue_enchanted_wood"
+		}
+	],
+	"result": {
+		"basePredicate": {
+			"item": "biomeswevegone:blue_enchanted_planks"
+		},
+		"count": 6
+	},
+	"secondaryOutputs": [
+		{
+			"tag": "c:dusts/wood"
+		}
+	],
+	"strippingSecondaries": []
+}

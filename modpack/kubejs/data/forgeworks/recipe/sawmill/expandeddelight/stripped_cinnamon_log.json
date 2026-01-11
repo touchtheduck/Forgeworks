@@ -1,0 +1,24 @@
+{
+	"type": "immersiveengineering:sawmill",
+	"energy": 800,
+	"input": [
+		{
+			"item": "expandeddelight:stripped_cinnamon_log"
+		},
+		{
+			"item": "expandeddelight:stripped_cinnamon_wood"
+		}
+	],
+	"result": {
+		"basePredicate": {
+			"item": "expandeddelight:cinnamon_planks"
+		},
+		"count": 6
+	},
+	"secondaryOutputs": [
+		{
+			"tag": "c:dusts/wood"
+		}
+	],
+	"strippingSecondaries": []
+}

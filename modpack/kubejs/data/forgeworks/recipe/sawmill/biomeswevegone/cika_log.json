@@ -1,0 +1,26 @@
+{
+	"type": "immersiveengineering:sawmill",
+	"energy": 1600,
+	"input": {
+		"item": "biomeswevegone:cika_log"
+	},
+	"result": {
+		"basePredicate": {
+			"item": "biomeswevegone:cika_planks"
+		},
+		"count": 6
+	},
+	"secondaryOutputs": [
+		{
+			"tag": "c:dusts/wood"
+		}
+	],
+	"stripped": {
+		"item": "biomeswevegone:stripped_cika_log"
+	},
+	"strippingSecondaries": [
+		{
+			"tag": "c:dusts/wood"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"type": "immersiveengineering:sawmill",
+	"energy": 800,
+	"input": [
+		{
+			"item": "extradelight:stripped_fruit_log"
+		},
+		{
+			"item": "extradelight:stripped_fruit_wood"
+		}
+	],
+	"result": {
+		"basePredicate": {
+			"item": "extradelight:fruit_planks"
+		},
+		"count": 6
+	},
+	"secondaryOutputs": [
+		{
+			"tag": "c:dusts/wood"
+		}
+	],
+	"strippingSecondaries": []
+}

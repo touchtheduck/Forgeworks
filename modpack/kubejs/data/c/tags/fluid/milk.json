@@ -1,0 +1,25 @@
+{
+	"values": [
+		{
+			"id": "minecraft:milk",
+			"required": false
+		},
+		{
+			"id": "minecraft:flowing_milk",
+			"required": false
+		},
+		{
+			"id": "#forge:milk",
+			"required": false
+		},
+		{
+			"id": "createfood:condensed_milk",
+			"required": false
+		},
+		{
+			"id": "vegandelight:soymilk",
+			"required": false
+		}
+	],
+	"replace": true
+}

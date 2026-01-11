@@ -1,0 +1,24 @@
+{
+	"type": "immersiveengineering:sawmill",
+	"energy": 800,
+	"input": [
+		{
+			"item": "biomeswevegone:stripped_cypress_log"
+		},
+		{
+			"item": "biomeswevegone:stripped_cypress_wood"
+		}
+	],
+	"result": {
+		"basePredicate": {
+			"item": "biomeswevegone:cypress_planks"
+		},
+		"count": 6
+	},
+	"secondaryOutputs": [
+		{
+			"tag": "c:dusts/wood"
+		}
+	],
+	"strippingSecondaries": []
+}
