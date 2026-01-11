@@ -1,0 +1,25 @@
+# Default config file that will be copied to saves\Twst\serverconfig\ftbchunks-world.snbt if it doesn't exist!
+# Just copy any values you wish to override in here!
+
+{
+	claiming: {
+		# Dimension ID's where chunks may be claimed. If non-empty, chunks may be claimed *only* in these dimensions (and the dimension is not in "claim_dimension_blacklist"). Same syntax as for "claim_dimension_blacklist".
+		# Default: []
+		claim_dimension_whitelist: ["minecraft:overworld"]
+	}
+	team_prop_defaults: {
+		# Default mode for block interaction (right-click) in claimed chunks (NeoForge only)
+		# Default: "allies"
+		# Valid values: "allies", "private", "public"
+		def_block_interact: "public"
+
+		# Default mode for entity interaction in claimed chunks
+		# Default: "allies"
+		# Valid values: "allies", "private", "public"
+		def_entity_interact: "public"
+
+		# Default allow fake player IDs which are the same as real permitted players
+		# Default: true
+		def_fake_player_ids: false
+	}
+}

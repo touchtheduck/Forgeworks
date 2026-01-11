@@ -1,0 +1,14 @@
+{
+	"custom_tags": {
+		"c:ores/salt": ["croptopia:salt_ore"],
+		"c:ores/silver": [
+			"create_more_additions:silver_ore",
+			"create_more_additions:deepslate_silver_ore"
+		]
+	},
+	"tag_substitutions": {},
+	"item_tag_inheritance_mode": "ALLOW",
+	"item_tag_inheritance": {},
+	"block_tag_inheritance_mode": "ALLOW",
+	"block_tag_inheritance": {}
+}
