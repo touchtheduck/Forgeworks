@@ -9774,6 +9774,67 @@
             ]
         },
         {
+            "pakku_id": "WRE6riip8NLIIhMe",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "discord-chat-connect",
+                "modrinth": "discord-chat-connect"
+            },
+            "name": {
+                "curseforge": "Discord & Chat Images",
+                "modrinth": "Discord & Chat Images"
+            },
+            "id": {
+                "curseforge": "1198238",
+                "modrinth": "yIWYj2mo"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "discord_chat_mod-neoforge-1.21.1-2.6.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7374/342/discord_chat_mod-neoforge-1.21.1-2.6.2.jar",
+                    "id": "7374342",
+                    "parent_id": "1198238",
+                    "hashes": {
+                        "sha1": "f9d0ef0105211799676c0e3fd6f145dbe77d5f96",
+                        "md5": "642c3db95e4b7f1cb97a2180bf8364b0"
+                    },
+                    "required_dependencies": [],
+                    "size": 19073879,
+                    "date_published": "2025-12-24T20:55:56.317Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "discord_chat_mod-neoforge-1.21.1-2.6.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/yIWYj2mo/versions/GQi04Aka/discord_chat_mod-neoforge-1.21.1-2.6.2.jar",
+                    "id": "GQi04Aka",
+                    "parent_id": "yIWYj2mo",
+                    "hashes": {
+                        "sha512": "9845b1e9c5dba4135071e5a0934969a3d2ba55ede6f23d26c5f0df3806b18b933c7f63650ec87c467cfbe1e3c15594386e1f4cec8f7c1844989193ecf0fb9bfa",
+                        "sha1": "f9d0ef0105211799676c0e3fd6f145dbe77d5f96"
+                    },
+                    "required_dependencies": [],
+                    "size": 19073879,
+                    "date_published": "2025-12-24T20:56:22.383894Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "rutrral2NDfXhRQC",
             "type": "MOD",
             "side": "BOTH",
