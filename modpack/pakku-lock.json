@@ -9776,7 +9776,7 @@
         {
             "pakku_id": "WRE6riip8NLIIhMe",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "discord-chat-connect",
                 "modrinth": "discord-chat-connect"
