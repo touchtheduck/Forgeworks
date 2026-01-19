@@ -1,7 +1,34 @@
-# Default config file that will be copied to saves\Twst\serverconfig\ftbchunks-world.snbt if it doesn't exist!
-# Just copy any values you wish to override in here!
+# Server-specific configuration for FTB Chunks
+# Modpack defaults should be defined in <instance>/config/ftbchunks-world.snbt
+#   (may be overwritten on modpack update)
+# Server admins may locally override this by copying into <instance>/world/serverconfig/ftbchunks-world.snbt
+#   (will NOT be overwritten on modpack update)
 
 {
+	# Forced modes won't let players change their ally settings
+	# Default: "default"
+	# Valid values: "default", "forced_all", "forced_none"
+	ally_mode: "default"
+
+	# Disables all land protection. Useful for private servers where everyone is trusted and claims are only used for force-loading
+	# Default: false
+	disable_protection: false
+
+	# Minimap for clients connecting to this server will be disabled
+	# Default: false
+	force_disable_minimap: true
+
+	# If true, "Location Visibility" team settings are ignored, and all players can see each other anywhere on the map.
+	# Default: false
+	location_mode_override: false
+
+	# Interval in ticks to send updates to clients with long-range player tracking data.
+	# Lower values mean more frequent updates but more server load and network traffic; be careful with this, especially on busy servers.
+	# Setting this to 0 disables long-range tracking.
+	# Default: 20
+	# Range: 0 ~ 2147483647
+	long_range_tracker_interval: 20
+
 	# Requires you to claim chunks in order to edit and interact with blocks
 	# Default: false
 	no_wilderness: false
@@ -24,6 +51,10 @@
 	# Valid values: "always", "never", "per_team"
 	pvp_mode: "per_team"
 
+	# If true, the player must have the 'ftbchunks_mapping' Game stage to be able to use the map and minimap.
+	# Requires KubeJS and/or Gamestages to be installed.
+	# Default: false
+	require_game_stage: false
 	claiming: {
 		# Dimension ID's where chunks may not be claimed. Add "minecraft:the_end" to this list if you want to disable chunk claiming in The End, or "othermod:*" to disable chunk claiming in *all* dimensions added by "othermod"
 		# Default: []
@@ -60,7 +91,23 @@
 		# Valid values: "largest", "owner", "sum", "average"
 		party_limit_mode: "largest"
 	}
+	dev: {
+		# Enable dev commands
+		# Default: false
+		commands: false
+	}
+	fake_players: {
+		# Override to disable/enable fake players like miners and auto-clickers globally.
+		# Default will check this setting for each team
+		# Default: "check"
+		# Valid values: "check", "deny", "allow"
+		fake_players: "check"
 
+		# Maximum time in days to keep logs of prevented fakeplayer access to a team's claims.
+		# Default: 7
+		# Range: 1 ~ 2147483647
+		max_prevented_log_age: 7
+	}
 	force_loading: {
 		# Control how force-loaded chunks work.
 		# NEVER: only allow chunk force-loading if the owning team has at least one online player.
@@ -88,7 +135,6 @@
 		# Range: 0.0 ~ 3650.0
 		max_idle_days_before_unforce: 0.0d
 	}
-
 	team_prop_defaults: {
 		# Default explosion protection for claimed chunks
 		# Default: false
@@ -149,7 +195,6 @@
 		# Default: true
 		def_pvp: true
 	}
-
 	waypoint_sharing: {
 		# Allow players to share waypoints with their party.
 		# Default: true
