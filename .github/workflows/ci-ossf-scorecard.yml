@@ -1,0 +1,21 @@
+name: CI OSSF Scorecard
+on:
+  schedule:
+    - cron: '44 9 * * 0'
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  analysis:
+    name: Scorecard analysis
+    uses: touchtheduck/.github/.github/workflows/reusable-ossf-scorecard.yml@main
+    permissions:
+      contents: read
+      security-events: write
+      id-token: write
+    with:
+      publish-results: false
