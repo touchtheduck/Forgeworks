@@ -1,0 +1,32 @@
+name: CI CodeQL
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: '44 9 * * 0'
+
+jobs:
+  analyze:
+    name: Analyze (${{ matrix.language }})
+    permissions:
+      security-events: write
+      packages: read
+      actions: read
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+        - language: actions
+          build-mode: none
+        - language: javascript-typescript
+          build-mode: none
+    uses: touchtheduck/.github/.github/workflows/reusable-codeql.yml@main
+    with:
+      language: ${{ matrix.language }}
+      build-mode: ${{ matrix.build-mode }}
