@@ -1,0 +1,12 @@
+version: 2
+
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/environment"
+    schedule:
+      interval: "weekly"
+    groups:
+      gradle-security:
+        patterns:
+          - "*"
+        applies-to: "security-updates"
