@@ -1,0 +1,32 @@
+name: CI Minecraft
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/ci-minecraft.yml
+      - modpack/**
+  pull_request:
+    branches:
+      - main
+    paths:
+      - .github/workflows/ci-minecraft.yml
+      - modpack/**
+
+concurrency:
+  group: ci-minecraft-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  minecraft-ci:
+    name: Minecraft CI
+    uses: touchtheduck/.github/.github/workflows/reusable-minecraft-ci.yml@main
+    with:
+      java-version: '21'
+      java-distribution: 'microsoft'
+      minecraft-version: '1.21.1'
+      modloader: 'neoforge'
+      modpack-directory: 'modpack'
