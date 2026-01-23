@@ -1,0 +1,30 @@
+# GitHub metadata files
+/.github/ @jaronz
+/.github/ISSUE_TEMPLATE/ @jaronz @liekevk
+
+# IDE specific files
+/.idea/ @jaronz
+/.vscode/ @jaronz
+
+# Modpack files
+/environment/ @jaronz
+/modpack/ @jaronz @liekevk
+/modpack/pakku.jar @jaronz
+/modpack/pakkuw @jaronz
+/modpack/pakkuw.bat @jaronz
+
+# Other configuration files
+/.editorconfig @jaronz
+/.gitattributes @jaronz
+/.gitignore @jaronz
+
+# Build files
+/build @jaronz
+/build.bat @liekevk
+
+# Images
+/*.png @jaronz @liekevk
+
+# Documentation files
+/LICENSE @jaronz @liekevk
+/*.md @jaronz @liekevk
