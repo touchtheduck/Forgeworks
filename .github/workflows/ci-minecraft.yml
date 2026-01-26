@@ -6,12 +6,16 @@ on:
     paths:
       - .github/workflows/ci-minecraft.yml
       - modpack/**
-  pull_request:
-    branches:
-      - main
-    paths:
-      - .github/workflows/ci-minecraft.yml
-      - modpack/**
+  workflow_dispatch:
+    inputs:
+      test-client:
+        description: 'Run client tests'
+        type: boolean
+        default: true
+      test-server:
+        description: 'Run server tests'
+        type: boolean
+        default: false
 
 concurrency:
   group: ci-minecraft-${{ github.ref }}
@@ -30,3 +34,5 @@ jobs:
       minecraft-version: '1.21.1'
       modloader: 'neoforge'
       modpack-directory: 'modpack'
+      test-client: ${{ github.event_name == 'workflow_dispatch' && inputs.test-client || true }}
+      test-server: ${{ github.event_name == 'workflow_dispatch' && inputs.test-server || false }} # This job takes a long time (1h+), disable server tests to save time
