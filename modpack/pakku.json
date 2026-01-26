@@ -5,6 +5,30 @@
 	"projects": {
 		"discord-chat-connect": {
 			"side": "BOTH"
+		},
+		"ftbchecker": {
+			"redistributable": false
+		},
+		"ftb-library-forge": {
+			"redistributable": false
+		},
+		"ftb-teams-forge": {
+			"redistributable": false
+		},
+		"ftb-xmod-compat": {
+			"redistributable": false
+		},
+		"ftb-chunks-forge": {
+			"redistributable": false
+		},
+		"ftb-ultimine-forge": {
+			"redistributable": false
+		},
+		"ftb-essentials": {
+			"redistributable": false
+		},
+		"ftb-ranks-forge": {
+			"redistributable": false
 		}
 	}
 }
