@@ -1,0 +1,18 @@
+chunks = true
+base = true
+quests = false
+teams = true
+essentials = true
+ultimine = true
+backups = false
+polyLib = false
+
+[versions]
+chunksVersion = "7029260"
+baseVersion = "7029003"
+questsVersion = "0"
+teamsVersion = "6930910"
+essentialsVersion = "6979622"
+ultimineVersion = "7025219"
+backupsVersion = "0"
+polyLibVersion = "0"
