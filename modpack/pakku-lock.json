@@ -4860,6 +4860,75 @@
             ]
         },
         {
+            "pakku_id": "ghceChgliye8hHer",
+            "pakku_links": [
+                "CWjUpFFNQJGtcUzE"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "cooking-for-blockheads",
+                "modrinth": "cooking-for-blockheads"
+            },
+            "name": {
+                "curseforge": "Cooking for Blockheads",
+                "modrinth": "Cooking for Blockheads"
+            },
+            "id": {
+                "curseforge": "231484",
+                "modrinth": "vJnhuDde"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cookingforblockheads-neoforge-1.21.1-21.1.17.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6975/904/cookingforblockheads-neoforge-1.21.1-21.1.17.jar",
+                    "id": "6975904",
+                    "parent_id": "231484",
+                    "hashes": {
+                        "sha1": "c58cbf6290c29990c9af5b20e7ab4703c21290cd",
+                        "md5": "7069f47b2797fc672264dba80f40e769"
+                    },
+                    "required_dependencies": [
+                        "531761"
+                    ],
+                    "size": 1247975,
+                    "date_published": "2025-09-08T11:09:04.930Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "cookingforblockheads-neoforge-1.21.1-21.1.17.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/vJnhuDde/versions/1jvI3u3e/cookingforblockheads-neoforge-1.21.1-21.1.17.jar",
+                    "id": "1jvI3u3e",
+                    "parent_id": "vJnhuDde",
+                    "hashes": {
+                        "sha512": "51f91a6f6215984363e7897943b1ecf9ed46cc0e3f527acee0d2c655f747aa847cbfada9ab0e3fb0413590babcbc022973f26a78a19bc215dc1ff1bd55cb39a8",
+                        "sha1": "a930ad9487049035b5e6621b930fcc6bd73df3e7"
+                    },
+                    "required_dependencies": [
+                        "MBAkmtvl"
+                    ],
+                    "size": 1247975,
+                    "date_published": "2025-09-08T11:09:39.668652Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "R5kmtru5j5aOxwmT",
             "type": "MOD",
             "side": "CLIENT",
