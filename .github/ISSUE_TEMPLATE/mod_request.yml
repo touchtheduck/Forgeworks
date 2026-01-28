@@ -5,11 +5,81 @@ assignees: ["jaronz", "liekevk"]
 title: "[MOD] "
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for considering contributing to this project! Please fill in the details about the mod you would like to be added below.
+
+  - type: markdown
+    attributes:
+      value: |
+        > **Note:** If your request is not about a specific mod, but rather a feature or functionality you would like to see implemented, please use the [Feature Request template](https://github.com/touchtheduck/Forgeworks/issues/new?template=feature_request.yml) instead.
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Pre-Submission Checklist
+
+        Before submitting your mod request, please ensure that you have reviewed the following checklist. This will help us process your request more efficiently and ensure that the mod can be added without any issues.
+
+  - type: checkboxes
+    id: new-issue
+    attributes:
+      label: Is there an existing issue or pull request for this mod request?
+      description: Before submitting a new mod request, please check if there is already an open issue or pull request for this mod.
+      options:
+        - label: There are no existing issues or pull requests for this mod request.
+          required: true
+
+  - type: checkboxes
+    id: modloader-version-checks
+    attributes:
+      label: Is this mod for NeoForge 1.21.1?
+      description: Before submitting a new mod request, please check if the mod is compatible with NeoForge 1.21.1.
+      options:
+        - label: This mod is compatible with NeoForge.
+          required: true
+        - label: This mod is available for Minecraft 1.21.1.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        > **Note:** The two fields below are not mandatory, but they help us filter mod requests that can't be fulfilled due to licensing or availability issues.
+        > Please take a moment to review them before submitting your request. Thank you for your understanding!
+
+  - type: checkboxes
+    id: curseforge-check
+    attributes:
+      label: Is this mod available on CurseForge or included in the list of Non-CurseForge mods?
+      description: Before submitting a new mod request, please check if the mod is available on CurseForge or included in the [list of Non-CurseForge mods](https://support.curseforge.com/support/solutions/articles/9000197913-non-curseforge-mods).
+      options:
+        - label: This mod is available on CurseForge.
+          required: false
+        - label: This mod is included in the [list of Non-CurseForge mods](https://support.curseforge.com/support/solutions/articles/9000197913-non-curseforge-mods).
+          required: false
+
+  - type: checkboxes
+    id: modrinth-check
+    attributes:
+      label: Is this mod available on Modrinth or does the author permit using the mod in Modrinth modpacks?
+      description: Before submitting a new mod request, please check if the mod is available on Modrinth or if the author permits using the mod in modpacks according to Modrinth's [Obtaining modpack permissions page](https://support.modrinth.com/en/articles/8797527-obtaining-modpack-permissions).
+      options:
+        - label: This mod is available on Modrinth.
+          required: false
+        - label: The author permits using this mod in modpacks according to Modrinth's [Obtaining modpack permissions page](https://support.modrinth.com/en/articles/8797527-obtaining-modpack-permissions).
+          required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Mod Details
+
   - type: dropdown
     id: users
     attributes:
       label: Mod Users
-      description: Is this mod for the server, players of the server, or both?
+      description: Is this mod for the server, players of the server, or both? If you're unsure, please select both.
       multiple: true
       options:
         - Server
@@ -17,23 +87,14 @@ body:
     validations:
       required: false
 
-  - type: textarea
-    id: mod
-    attributes:
-      label: Mod Features
-      description: "What should the mod add to the server / clients?"
-      placeholder: "Gives the players backpacks, so they have more storage."
-    validations:
-      required: true
-
   - type: input
     id: mod-name
     attributes:
       label: Mod name
-      description: "If you have a specific mod in mind, what is the full name of the mod you want added?"
+      description: "What is the full name of the mod you want added?"
       placeholder: "Applied Energetics 2"
     validations:
-      required: false
+      required: true
 
   - type: input
     id: mod-link
@@ -41,6 +102,18 @@ body:
       label: Mod Link
       description: "If you have a link to the mod, please add it here."
       placeholder: "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-links
+    attributes:
+      label: Additional Mod Links
+      description: |
+        If there are any additional links to the mod (e.g., Modrinth page), please add them here.
+        This is optional but can be helpful for us to find more information about the mod and process your request faster.
+      placeholder: |
+        https://modrinth.com/mod/ae2
     validations:
       required: false
 
