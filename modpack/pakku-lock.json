@@ -4657,6 +4657,67 @@
             ]
         },
         {
+            "pakku_id": "M5u0Dw4HqovWBIDI",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "construction-sticks",
+                "modrinth": "construction-sticks"
+            },
+            "name": {
+                "curseforge": "Construction Sticks",
+                "modrinth": "Construction Sticks"
+            },
+            "id": {
+                "curseforge": "1156098",
+                "modrinth": "ooyjDLZt"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ConstructionSticks-1.21.1-1.2.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6912/513/ConstructionSticks-1.21.1-1.2.3.jar",
+                    "id": "6912513",
+                    "parent_id": "1156098",
+                    "hashes": {
+                        "sha1": "ef0d275a567eb9bbc69d0939874ed447b687863b",
+                        "md5": "0ea077d44553c38b8190c3313ea68e9c"
+                    },
+                    "required_dependencies": [],
+                    "size": 253982,
+                    "date_published": "2025-08-21T20:15:37.573Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "ConstructionSticks-1.21.1-1.2.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ooyjDLZt/versions/Fdq0y6WW/ConstructionSticks-1.21.1-1.2.3.jar",
+                    "id": "Fdq0y6WW",
+                    "parent_id": "ooyjDLZt",
+                    "hashes": {
+                        "sha512": "f91236bacf9a1cedc5e1865d0b72e2b6dcf457de82adc72f9f6b03d7619780f2e9c697a9e2ab555f9c573e623c127ee435f4ff4bbc1c89a9236b39fdbadbf0f9",
+                        "sha1": "2679813c8276db71975af0727c98a86569cf7810"
+                    },
+                    "required_dependencies": [],
+                    "size": 253982,
+                    "date_published": "2025-08-21T20:15:59.256862Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "OEMD7YYJOWE6yiaV",
             "pakku_links": [
                 "cdOjtxT0rxZEljKw",
