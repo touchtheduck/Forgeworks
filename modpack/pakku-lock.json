@@ -19883,6 +19883,74 @@
             ]
         },
         {
+            "pakku_id": "v4Yzj7qkf3mre7fe",
+            "pakku_links": [
+                "ujItKNneBic0YVHa"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "steam-n-rails-neoforge",
+                "modrinth": "create-steam-n-rails-1.21.1"
+            },
+            "name": {
+                "curseforge": "Steam 'n' Rails Neoforge",
+                "modrinth": "Steam 'n' Rails Neoforge"
+            },
+            "id": {
+                "curseforge": "1414670",
+                "modrinth": "L3Jv0QZI"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "railways-0.1.0+neoforge-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7478/287/railways-0.1.0+neoforge-mc1.21.1.jar",
+                    "id": "7478287",
+                    "parent_id": "1414670",
+                    "hashes": {
+                        "sha1": "6eaa3864182762595ac81c067f37fad3a5b0ae07",
+                        "md5": "910127b09105963279efa7f140dbc629"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 11847726,
+                    "date_published": "2026-01-18T00:45:56.407Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "railways-0.1.0+neoforge-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/L3Jv0QZI/versions/vpLvW4Yz/railways-0.1.0+neoforge-mc1.21.1.jar",
+                    "id": "vpLvW4Yz",
+                    "parent_id": "L3Jv0QZI",
+                    "hashes": {
+                        "sha512": "52c641635a63276ed93b40d9d61be2579ecc41333709ebe8cdd9c7f6baab43b7471ad8c0fbe247f5a9ed66fd3701c5d083c341a0031138cc08e55ce797d470f1",
+                        "sha1": "6eaa3864182762595ac81c067f37fad3a5b0ae07"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 11847726,
+                    "date_published": "2026-01-18T00:49:27.620803Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "6hxVHDD22fvbdI4M",
             "pakku_links": [
                 "6ETabwactb8tk4c7",
