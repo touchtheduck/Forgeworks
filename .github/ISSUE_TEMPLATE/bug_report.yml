@@ -5,21 +5,60 @@ type: Bug
 title: "[FIX] "
 
 body:
-  - type: textarea
+  - type: markdown
     attributes:
-      label: Bug
-      description: Describe the bug
+      value: |
+        Thank you for reporting a bug! Please fill out the following template to help us understand and resolve the issue.
+
+  - type: checkboxes
+    id: new-issue
+    attributes:
+      label: Is there an existing issue for this bug?
+      description: Before creating a new issue, please check if the bug has already been reported.
+      options:
+        - label: There are no existing issues for this bug
+          required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Description of the bug
+      description: Provide a detailed description of the bug you encountered.
     validations:
       required: true
 
   - type: textarea
+    id: steps-to-reproduce
     attributes:
-      label: Steps to Reproduce
-      description: "How do you trigger this bug? Please walk us through it step by step."
+      label: Steps to reproduce
+      description: List the steps to reproduce the bug.
       placeholder: |
-        1.
-        2.
-        3.
-        ...
+        Give a clear and concise list of steps that lead to the bug, for example:
+        1. Open the application
+        2. Click on the "Submit" button
+        3. Observe the error message
     validations:
       required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: Describe what you expected to happen.
+      placeholder: Explain what you expected to happen when following the steps above.
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, please attach screenshots that demonstrate the bug.
+      placeholder: You can paste images directly into this field or upload them using the "Attach files" button.
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional information
+      description: Any other information that might be relevant to the bug report.
+      placeholder: Include any logs, error messages, or other context that might help in diagnosing the issue.
