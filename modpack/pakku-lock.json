@@ -264,6 +264,77 @@
             ]
         },
         {
+            "pakku_id": "rOFIaBSsWvSV65dJ",
+            "pakku_links": [
+                "uDdl2LIwKS9wBMP6",
+                "4cRjoQwZktp1Im3D"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "advancedae",
+                "modrinth": "advancedae"
+            },
+            "name": {
+                "curseforge": "AdvancedAE",
+                "modrinth": "AdvancedAE"
+            },
+            "id": {
+                "curseforge": "1084104",
+                "modrinth": "rxYaglEe"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "AdvancedAE-1.6.9-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7374/386/AdvancedAE-1.6.9-1.21.1.jar",
+                    "id": "7374386",
+                    "parent_id": "1084104",
+                    "hashes": {
+                        "sha1": "bb0c85f17d5e8dbce57b75802bc473d0d3c2edb3",
+                        "md5": "e18ee532d01587a8b5543c58af764c20"
+                    },
+                    "required_dependencies": [
+                        "388172",
+                        "223794"
+                    ],
+                    "size": 4796834,
+                    "date_published": "2025-12-24T21:15:02.730Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "AdvancedAE-1.6.9-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/rxYaglEe/versions/dAIGNknN/AdvancedAE-1.6.9-1.21.1.jar",
+                    "id": "dAIGNknN",
+                    "parent_id": "rxYaglEe",
+                    "hashes": {
+                        "sha512": "bd3b35da7a2ca6729541c80097a6988124adc7fd5a37d8f515a9e0a1146e692e9f836da1dcad0af7d431243350840fe1482633d601517a8224a73eb3f2b5db5e",
+                        "sha1": "bb0c85f17d5e8dbce57b75802bc473d0d3c2edb3"
+                    },
+                    "required_dependencies": [
+                        "8BmcQJ2H",
+                        "XxWD5pD3"
+                    ],
+                    "size": 4796834,
+                    "date_published": "2025-12-24T21:15:13.720465Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "v39LFa6h5Qh4j22o",
             "pakku_links": [
                 "OU7PUplbhDusAKLs"
