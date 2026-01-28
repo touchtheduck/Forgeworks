@@ -5524,6 +5524,46 @@
             ]
         },
         {
+            "pakku_id": "QX4RWFqM6jSqFsLP",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "crash-utilities",
+                "modrinth": "crash-utilities"
+            },
+            "name": {
+                "curseforge": "Crash Utilities",
+                "modrinth": "Crash Utilities"
+            },
+            "id": {
+                "curseforge": "371813",
+                "modrinth": "nbg22QFg"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "crashutilities-9.0.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5993/450/crashutilities-9.0.4.jar",
+                    "id": "5993450",
+                    "parent_id": "371813",
+                    "hashes": {
+                        "sha1": "5117a448b0611f60fbe743a4a631e431dd31740e",
+                        "md5": "8a6dd8e1ebe0e5e8acf3bd377f98361c"
+                    },
+                    "required_dependencies": [],
+                    "size": 225310,
+                    "date_published": "2024-12-15T15:05:05.643Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "sF3XeCuYCWwBIcIU",
             "type": "MOD",
             "side": "BOTH",
