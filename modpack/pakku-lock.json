@@ -16616,6 +16616,47 @@
             ]
         },
         {
+            "pakku_id": "0RkzQ25EvlulvHbl",
+            "pakku_links": [
+                "HB584ckYbaBCzOj8"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "not-enough-glyphs"
+            },
+            "name": {
+                "curseforge": "Not Enough Glyphs"
+            },
+            "id": {
+                "curseforge": "1023517"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "not_enough_glyphs-1.21.1-4.2.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7442/375/not_enough_glyphs-1.21.1-4.2.4.jar",
+                    "id": "7442375",
+                    "parent_id": "1023517",
+                    "hashes": {
+                        "sha1": "5df4da78ddabcda8d5d1cdd64f2ed238b12d162a",
+                        "md5": "27bd9ceee2e99a8b390dd741c7eb9d42"
+                    },
+                    "required_dependencies": [
+                        "401955"
+                    ],
+                    "size": 538048,
+                    "date_published": "2026-01-10T16:15:30.130Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "4arglmRHGBFmDgA1",
             "pakku_links": [
                 "f8lSCyogwqqMeD6K"
