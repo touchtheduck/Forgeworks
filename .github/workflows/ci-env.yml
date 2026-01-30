@@ -1,0 +1,35 @@
+name: ci-environment
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - environment/**
+      - .github/workflows/ci-env.yml
+  pull_request:
+    branches:
+      - main
+    paths:
+      - environment/**
+      - .github/workflows/ci-env.yml
+  schedule:
+    - cron: '44 9 * * 0'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  validate-environment:
+    name: Validate Environment
+    uses: touchtheduck/.github/.github/workflows/reusable-gradle-job.yml@main
+    with:
+      gradle-path: 'environment'
+      gradle-task: 'clean build --refresh-dependencies'
+      sparse-checkout: |
+        environment/
+        modpack/
