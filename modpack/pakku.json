@@ -29,6 +29,9 @@
 		},
 		"ftb-ranks-forge": {
 			"redistributable": false
+		},
+		"cobblegen": {
+			"side" : "BOTH"
 		}
 	}
 }
