@@ -4227,6 +4227,69 @@
             ]
         },
         {
+            "pakku_id": "1mwMEKCLod6Ee9zI",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "cobblegen",
+                "modrinth": "cobblegen"
+            },
+            "name": {
+                "curseforge": "CobbleGen [Fabric/(Neo)Forge]",
+                "modrinth": "CobbleGen"
+            },
+            "id": {
+                "curseforge": "581293",
+                "modrinth": "qRogT5Gy"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cobblegen-5.4.7+1.21.1b1295-BETA-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7428/326/cobblegen-5.4.7+1.21.1b1295-BETA-neoforge.jar",
+                    "id": "7428326",
+                    "parent_id": "581293",
+                    "hashes": {
+                        "sha1": "36854fa9a64a85cbb8386995ea2743f86cd0505c",
+                        "md5": "59fc4f24b13fadfac245c9a65a73d706"
+                    },
+                    "required_dependencies": [],
+                    "size": 555768,
+                    "date_published": "2026-01-07T04:13:57.597Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "cobblegen-5.4.7+1.21.1b1295-BETA-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/qRogT5Gy/versions/IjmJBHn4/cobblegen-5.4.7+1.21.1b1295-BETA-neoforge.jar",
+                    "id": "IjmJBHn4",
+                    "parent_id": "qRogT5Gy",
+                    "hashes": {
+                        "sha512": "a05e00c8a46d6730962f128d7b152364052f6be4162bba3f7f65bcdbc21ee632993d7e891b43572acc2e3f37c0371dd0b11113caf751ef5c0beb189311805f2e",
+                        "sha1": "36854fa9a64a85cbb8386995ea2743f86cd0505c"
+                    },
+                    "required_dependencies": [],
+                    "size": 555768,
+                    "date_published": "2026-01-07T04:13:57.677091Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "RXJhbmxbtirH3HxP",
             "type": "MOD",
             "side": "BOTH",
