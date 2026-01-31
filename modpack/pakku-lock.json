@@ -4229,7 +4229,7 @@
         {
             "pakku_id": "1mwMEKCLod6Ee9zI",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "cobblegen",
                 "modrinth": "cobblegen"
@@ -10686,6 +10686,42 @@
                     "required_dependencies": [],
                     "size": 449381,
                     "date_published": "2025-07-31T06:57:40.644780Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "n5eFOTkWHRgZPTnR",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "effortlessbuilding-sophisticated"
+            },
+            "name": {
+                "curseforge": "Effortless Building: Sophisticated (Enhanced Fork)"
+            },
+            "id": {
+                "curseforge": "1414718"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sophisticatedbuilding-3.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7542/269/sophisticatedbuilding-3.2.jar",
+                    "id": "7542269",
+                    "parent_id": "1414718",
+                    "hashes": {
+                        "sha1": "8a7eab31c00129546b224e7cd519fc5d5d14195e",
+                        "md5": "0e1b7e5328385a0845e9ed21789719f0"
+                    },
+                    "required_dependencies": [],
+                    "size": 3168482,
+                    "date_published": "2026-01-28T19:41:01.483Z"
                 }
             ]
         },
