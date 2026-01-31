@@ -1,0 +1,236 @@
+{
+	// CobbleGen Format Version, you can leave this alone for now. v2.0 is scheduled to be released in CobbleGen v6.0
+	"formatVersion": "1.0",
+	"cobbleGen": [
+		{
+			"id": "minecraft:cobblestone",
+			"weight": 100.0,
+			"dimensions": [
+				"minecraft:overworld",
+				"minecraft:the_nether",
+				"minecraft:the_end",
+				"aether:the_aether",
+			]
+		},
+		{
+			"id": "stellaris:moon_cobblestone",
+			"weight": 100.0,
+			"dimensions": [
+				"stellaris:moon",
+			]
+		},
+		{
+			"id": "stellaris:mars_cobblestone",
+			"weight": 100.0,
+			"dimensions": [
+				"stellaris:mars",
+			]
+		},
+		{
+			"id": "stellaris:venus_cobblestone",
+			"weight": 100.0,
+			"dimensions": [
+				"stellaris:venus",
+			]
+		},
+	],
+	"stoneGen": [
+		{
+			"id": "minecraft:stone",
+			"weight": 100.0,
+			"dimensions": [
+				"minecraft:overworld",
+				"minecraft:the_nether",
+				"minecraft:the_end",
+				"aether:the_aether",
+			]
+		},
+		{
+			"id": "stellaris:moon_stone",
+			"weight": 100.0,
+			"dimensions": [
+				"stellaris:moon",
+			]
+		},
+		{
+			"id": "stellaris:mars_stone",
+			"weight": 100.0,
+			"dimensions": [
+				"stellaris:mars",
+			]
+		},
+		{
+			"id": "stellaris:venus_stone",
+			"weight": 100.0,
+			"dimensions": [
+				"stellaris:venus",
+			]
+		},
+	],
+	"basaltGen": [
+		{
+			"id": "minecraft:basalt",
+			"weight": 100.0,
+		},
+		{
+			"id": "stellaris:mercury_cobblestone",
+			"weight": 100.0,
+			"dimensions": [
+				"stellaris:mercury",
+			]
+		}
+	],
+	"customGen": {
+		"cobbleGen": {
+			"create:ochrum": [
+				{
+					"id": "create:ochrum",
+					"weight": 100.0,
+				},
+			],
+			"create:veridium": [
+				{
+					"id": "create:veridium",
+					"weight": 100.0,
+				},
+			],
+			"create:scoria": [
+				{
+					"id": "create:scoria",
+					"weight": 100.0,
+				},
+			],
+			"minecraft:granite": [
+				{
+					"id": "minecraft:granite",
+					"weight": 100.0,
+				},
+			],
+			"minecraft:diorite": [
+				{
+					"id": "minecraft:diorite",
+					"weight": 100.0,
+				},
+			],
+			"minecraft:andesite": [
+				{
+					"id": "minecraft:andesite",
+					"weight": 100.0,
+				},
+			],
+			"minecraft:tuff": [
+				{
+					"id": "minecraft:tuff",
+					"weight": 100.0,
+				},
+			],
+			"minecraft:cobbled_deepslate": [
+				{
+					"id": "minecraft:cobbled_deepslate",
+					"weight": 100.0,
+				},
+			],
+			"create:crimsite": [
+				{
+					"id": "create:crimsite",
+					"weight": 100.0,
+				},
+			],
+			"create:limestone": [
+				{
+					"id": "create:limestone",
+					"weight": 100.0,
+				},
+			],
+			"create:asurine": [
+				{
+					"id": "create:asurine",
+					"weight": 100.0,
+				},
+			],
+			"minecraft:netherrack": [
+				{
+					"id": "minecraft:netherrack",
+					"weight": 100.0,
+				},
+			],
+			"minecraft:cobblestone": [
+				{
+					"id": "minecraft:gravel",
+					"weight": 100.0,
+				},
+			],
+			"minecraft:gravel": [
+				{
+					"id": "minecraft:sand",
+					"weight": 100.0,
+				},
+			],
+			"minecraft:sand": [
+				{
+					"id": "minecraft:dirt",
+					"weight": 100.0,
+				},
+			],
+			"stellaris:moon_deepslate": [
+				{
+					"id": "stellaris:moon_deepslate",
+					"weight": 100.0,
+					"dimensions": [
+						"stellaris:moon"
+					]
+				},
+			],
+			"stellaris:moon_cobblestone": [
+				{
+					"id": "stellaris:moon_sand",
+					"weight": 100.0,
+					"dimensions": [
+						"stellaris:moon"
+					]
+				},
+			],
+			"stellaris:mars_cobblestone": [
+				{
+					"id": "stellaris:mars_sand",
+					"weight": 100.0,
+					"dimensions": [
+						"stellaris:mars"
+					]
+				},
+			],
+			"stellaris:venus_cobblestone": [
+				{
+					"id": "stellaris:venus_sand",
+					"weight": 100.0,
+					"dimensions": [
+						"stellaris:venus"
+					]
+				},
+			],
+		
+		},
+		"stoneGen": {
+			"minecraft:deepslate": [
+				{
+					"id": "minecraft:deepslate",
+					"weight": 100.0,
+					"dimensions": [
+						"minecraft:overworld",
+						"minecraft:the_nether",
+						"minecraft:the_end",
+						"aether:the_aether",
+					]
+				},
+			],
+		},
+		"basaltGen": {
+			"minecraft:obsidian": [
+				{
+					"id": "minecraft:obsidian",
+					"weight": 100.0,
+				},
+			],
+		}
+	},
+}
