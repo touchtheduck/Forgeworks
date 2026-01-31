@@ -1,0 +1,53 @@
+name: Recipe Request
+description: Request for a Minecraft recipe to be added to the modpack.
+type: Feature
+assignees: ["jaronz", "liekevk"]
+title: "[RECIPE] "
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for considering contributing to this project! Please fill in the details about the recipe you would like to be added below.
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Pre-Submission Checklist
+
+        Before submitting your recipe request, please ensure that you have reviewed the following checklist. This will help us process your request more efficiently.
+
+  - type: checkboxes
+    id: new-issue
+    attributes:
+      label: Is there an existing issue or pull request for this recipe request?
+      description: Before submitting a new recipe request, please check if there is already an open issue or pull request for this recipe.
+      options:
+        - label: There are no existing issues or pull requests for this recipe request.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Recipe Details
+
+        Please provide the following details about the recipe you are requesting.
+
+  - type: dropdown
+    id: recipe-type
+    attributes:
+      label: Recipe Type
+      description: What type of recipe are you requesting?
+      multiple: false
+      options:
+        - Crafting (Shaped)
+        - Crafting (Shapeless)
+        - Smelting
+        - Blasting
+        - Smoking
+        - Campfire Cooking
+        - Smithing
+        - Stonecutting
+        - Other
+    validations:
+      required: true
