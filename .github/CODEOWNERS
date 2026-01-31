@@ -4,6 +4,7 @@
 
 # IDE specific files
 /.idea/ @jaronz
+/*.iml @jaronz
 /.vscode/ @jaronz
 
 # Modpack files
