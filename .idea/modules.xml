@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Forgeworks.iml" filepath="$PROJECT_DIR$/Forgeworks.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/environment.main.iml" filepath="$PROJECT_DIR$/.idea/modules/environment.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/environment.test.iml" filepath="$PROJECT_DIR$/.idea/modules/environment.test.iml" />
     </modules>
