@@ -21117,6 +21117,67 @@
             ]
         },
         {
+            "pakku_id": "9ki5ASOk43oPt0qX",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "trialsexpanded",
+                "modrinth": "trialsexpanded"
+            },
+            "name": {
+                "curseforge": "TrialsExpanded",
+                "modrinth": "Trials Expanded"
+            },
+            "id": {
+                "curseforge": "1455411",
+                "modrinth": "xgx3NV2j"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "trialsexpanded-neoforge-1.21.1-1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7585/130/trialsexpanded-neoforge-1.21.1-1.0.0.jar",
+                    "id": "7585130",
+                    "parent_id": "1455411",
+                    "hashes": {
+                        "sha1": "4d79551e602b849f6ef1a98c2841f3827222eec8",
+                        "md5": "07af4f3a8a922fabfda2f846fb8d9f60"
+                    },
+                    "required_dependencies": [],
+                    "size": 392233,
+                    "date_published": "2026-02-06T17:06:17.050Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "trialsexpanded-neoforge-1.21.1-1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/xgx3NV2j/versions/att7BK0L/trialsexpanded-neoforge-1.21.1-1.0.0.jar",
+                    "id": "att7BK0L",
+                    "parent_id": "xgx3NV2j",
+                    "hashes": {
+                        "sha512": "e6b23cea5c148e5560d29b2f338ca75392650865c1eefbf4c64988ea81decbacbaa218098d0ab54bae59eb141cc9a415cd07b5392871dd310ab567f64facd7de",
+                        "sha1": "4d79551e602b849f6ef1a98c2841f3827222eec8"
+                    },
+                    "required_dependencies": [],
+                    "size": 392233,
+                    "date_published": "2026-02-06T17:06:19.651724Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "tygGLMOVqK3nZJFe",
             "type": "MOD",
             "side": "BOTH",
