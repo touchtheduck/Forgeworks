@@ -21117,9 +21117,9 @@
             ]
         },
         {
-            "pakku_id": "9ki5ASOk43oPt0qX",
+            "pakku_id": "MVYEvjFf6UXemluF",
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "curseforge": "trialsexpanded",
                 "modrinth": "trialsexpanded"
