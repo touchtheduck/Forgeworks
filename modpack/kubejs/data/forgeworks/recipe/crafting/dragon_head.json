@@ -19,5 +19,7 @@
       "item": "minecraft:ender_eye"
     }
   },
-  "result": "minecraft:dragon_head"
+  "result": {
+    "item": "minecraft:dragon_head"
+  }
 }
