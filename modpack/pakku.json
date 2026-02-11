@@ -1,6 +1,6 @@
 {
     "name": "Forgeworks",
-    "version": "2.0.0",
+    "version": "2.1.0",
 	"overrides": ["config", "defaultconfigs", "kubejs"],
 	"projects": {
 		"discord-chat-connect": {
@@ -35,6 +35,6 @@
 		},
 		"trialsexpanded":  {
 			"side" : "BOTH"
-		},
+		}
 	}
 }
