@@ -32,6 +32,9 @@
 		},
 		"cobblegen": {
 			"side" : "BOTH"
-		}
+		},
+		"trialsexpanded":  {
+			"side" : "BOTH"
+		},
 	}
 }
