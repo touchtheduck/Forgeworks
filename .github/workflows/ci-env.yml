@@ -26,7 +26,7 @@ permissions:
 jobs:
   validate-environment:
     name: Validate Environment
-    uses: touchtheduck/.github/.github/workflows/reusable-gradle-job.yml@main
+    uses: touchtheduck/.github/.github/workflows/reusable-gradle-job.yml@d7d70d03b15df8a003273375473463419d31647b # main
     with:
       gradle-path: 'environment'
       gradle-task: 'clean build --refresh-dependencies'
