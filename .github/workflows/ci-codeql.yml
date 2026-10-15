@@ -29,7 +29,7 @@ jobs:
           build-mode: none
         - language: javascript-typescript
           build-mode: none
-    uses: touchtheduck/.github/.github/workflows/reusable-codeql.yml@main
+    uses: touchtheduck/.github/.github/workflows/reusable-codeql.yml@d7d70d03b15df8a003273375473463419d31647b # main
     with:
       language: ${{ matrix.language }}
       build-mode: ${{ matrix.build-mode }}
